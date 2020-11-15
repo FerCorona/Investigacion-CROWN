@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[spanish]{babel}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{setspace}
+
+\usepackage{graphicx}
+
+\pagestyle{plain}
+
+\doublespacing
+
+
+\begin{document}
+
+	\tableofcontents
+	
+		\chapter {INTRODUCCIÓN}
+			
+		\chapter {JUSTIFICACIÓN }
+			\input{./Justificacion/justificacion.tex}
+		
+		\chapter {OBJETIVOS }
+			\section {Objetivos Generales}
+				\input{./Objetivos/objetivosGenerales.tex}
+			
+			\section {Objetivos Específicos} 
+				\input{./Objetivos/objetivosEspecificos.tex}
+			
+		\chapter {ALCANCES Y LIMITACIONES }
+		
+		\chapter {MARCO TEÓRICO  }
+			\input{./MarcoTeorico/marcoTeorico.tex}
+		
+		\chapter {PROCEDIMIENTO Y DESCRIPCIÓN DE LAS ACTIVIDADES REALIZADAS}
+			\input{./Procedimiento/procedimiento.tex}
+			
+			\section {CREACIÓN DEL AMBIENTE DE DESARROLLO}
+				\input{./Procedimiento/ambiente.tex}
+				
+			\section {DESARROLLO}
+				\input{./Procedimiento/desarrollo.tex}
+				
+			\section {TEST }
+				\input{./Procedimiento/test.tex}
+			
+		
+		\chapter {RESULTADOS}
+		
+		\chapter {CONCLUSIONES Y RECOMENDACIONES}
+		
+		\chapter {FUENTES DE INFORMACIÓN}
+		
+		\chapter {ANEXOS}
+
+\end{document}
