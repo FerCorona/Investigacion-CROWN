@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 NOV 2020 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  22 NOV 2020 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,119 +685,265 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--17
 <./Imagenes/carbon-3.png, id=174, 1760.5775pt x 409.53pt>
 File: ./Imagenes/carbon-3.png Graphic file (type png)
 <use ./Imagenes/carbon-3.png>
-Package pdftex.def Info: ./Imagenes/carbon-3.png  used on input line 22.
+Package pdftex.def Info: ./Imagenes/carbon-3.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 90.71552pt.
 <./Imagenes/carbon-5.png, id=175, 1760.5775pt x 481.8pt>
 File: ./Imagenes/carbon-5.png Graphic file (type png)
 <use ./Imagenes/carbon-5.png>
-Package pdftex.def Info: ./Imagenes/carbon-5.png  used on input line 28.
+Package pdftex.def Info: ./Imagenes/carbon-5.png  used on input line 30.
 (pdftex.def)             Requested size: 390.0pt x 106.72414pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--35
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 
  []
 
 [37 <./Imagenes/carbon-2.png> <./Imagenes/carbon-3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\OT1/cmr/m/n/12 Texto que mos-trar^^Sa el
  []
 
 
-Overfull \hbox (35.10663pt too wide) in paragraph at lines 36--51
+Overfull \hbox (35.10663pt too wide) in paragraph at lines 38--59
  [] 
  []
 
 [38 <./Imagenes/carbon-5.png>]
 
-./Procedimiento/desarrollo.tex:52: LaTeX Error: There's no line here to end.
+./Procedimiento/desarrollo.tex:60: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \newline
+l.60 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Procedimiento/desarrollo.tex:53: LaTeX Error: There's no line here to end.
+./Procedimiento/desarrollo.tex:61: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \newline
+l.61 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-9.png, id=185, 1760.5775pt x 1782.66pt>
+
+./Procedimiento/desarrollo.tex:62: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[39]
+<./Imagenes/carbon-9.png, id=188, 1760.5775pt x 1782.66pt>
 File: ./Imagenes/carbon-9.png Graphic file (type png)
 <use ./Imagenes/carbon-9.png>
-Package pdftex.def Info: ./Imagenes/carbon-9.png  used on input line 58.
+Package pdftex.def Info: ./Imagenes/carbon-9.png  used on input line 73.
 (pdftex.def)             Requested size: 390.0pt x 394.87933pt.
-<./Imagenes/image26.png, id=186, 1760.5775pt x 770.88pt>
+<./Imagenes/image26.png, id=189, 1760.5775pt x 770.88pt>
 File: ./Imagenes/image26.png Graphic file (type png)
 <use ./Imagenes/image26.png>
-Package pdftex.def Info: ./Imagenes/image26.png  used on input line 66.
+Package pdftex.def Info: ./Imagenes/image26.png  used on input line 81.
 (pdftex.def)             Requested size: 390.0pt x 170.75862pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--84
 
  []
 
-[39] [40 <./Imagenes/carbon-9.png>]) (./Procedimiento/test.tex) [41 <./Imagenes
-/image26.png>]
+[40 <./Imagenes/carbon-9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+[41 <./Imagenes/image26.png>]
+Underfull \hbox (badness 2035) in paragraph at lines 96--96
+[]\OT1/cmr/m/n/12 Este par^^Same-tro in-di-ca el
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/12 Indicamos el ta-ma~no del
+ []
+
+
+Overfull \hbox (20.77396pt too wide) in paragraph at lines 92--105
+ [] 
+ []
+
+
+./Procedimiento/desarrollo.tex:106: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Procedimiento/desarrollo.tex:107: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/carbon-11.png, id=198, 1760.5775pt x 879.285pt>
+File: ./Imagenes/carbon-11.png Graphic file (type png)
+<use ./Imagenes/carbon-11.png>
+Package pdftex.def Info: ./Imagenes/carbon-11.png  used on input line 111.
+(pdftex.def)             Requested size: 390.0pt x 194.77156pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
+
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 133--133
+[]\OT1/cmr/m/n/12 Es la ma-ne-ra en co-mo
+ []
+
+
+Overfull \hbox (31.51639pt too wide) in paragraph at lines 123--140
+ [] 
+ []
+
+[43 <./Imagenes/carbon-11.png>]
+
+./Procedimiento/desarrollo.tex:141: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Procedimiento/desarrollo.tex:142: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/carbon-12.png, id=207, 1760.5775pt x 1963.335pt>
+File: ./Imagenes/carbon-12.png Graphic file (type png)
+<use ./Imagenes/carbon-12.png>
+Package pdftex.def Info: ./Imagenes/carbon-12.png  used on input line 148.
+(pdftex.def)             Requested size: 390.0pt x 434.90088pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+
+ []
+
+[44] [45]) (./Procedimiento/test.tex) [46 <./Imagenes/carbon-12.png>] [47]
 Cap\'{\i }tulo 7.
-[42
+[48
 
 ]
 Cap\'{\i }tulo 8.
@@ -806,7 +952,7 @@ Overfull \hbox (24.66064pt too wide) in paragraph at lines 64--64
 |\OT1/cmr/bx/n/24.88 CONCLUSIONES Y RE-CO-MEN-
  []
 
-[43
+[49
 
 ]
 Cap\'{\i }tulo 9.
@@ -815,21 +961,21 @@ Overfull \hbox (6.49022pt too wide) in paragraph at lines 66--66
 |\OT1/cmr/bx/n/24.88 FUENTES DE IN-FOR-MA-CI[]ON| 
  []
 
-[44
+[50
 
 ]
 Cap\'{\i }tulo 10.
-[45
+[51
 
 ] (./Investigacion.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 2769 strings out of 480608
- 41212 string characters out of 5903631
+ 2781 strings out of 480608
+ 41516 string characters out of 5903631
  294907 words of memory out of 5000000
- 18608 multiletter control sequences out of 15000+600000
+ 18618 multiletter control sequences out of 15000+600000
  537982 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,35p,1260b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -837,10 +983,10 @@ Here is how much of TeX's memory you used:
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
 usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Investigacion.pdf (46 pages, 1730465 bytes).
+Output written on Investigacion.pdf (52 pages, 1998621 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,6 +15,8 @@ El primer bloque de código muestra la importación de cada uno de los elementos
 WEBPACK analiza cada elemento que se incluye en el objeto y busca el contenido existente dentro de cada uno.
 Cada uno de los elementos que se necesita agregar deben estar situados a la misma altura del archivo “index.js” esto dentro del directorio “src” para que puedan ser procesados.
 
+
+
 \subsection{ELEMENTO BOTÓN}
 El primer elemento que vamos a agregar es el botón, para esto creamos un directorio llamado “Botton” de la siguiente manera.
 \newline
@@ -47,10 +49,23 @@ color &  Es el color del botón. & Cadena de texto. & --blue-4 \\[3.5ex]
  \hline
 borderColor & Es el color del borde del botón. & Cadena de texto. & --blue-4 \\ [2.5ex] 
  \hline
+ type & Es el tipo de botón. & Cadena de texto. & Default \\ [2.5ex] 
+ \hline
+ shape & Es la forma del botón. Estos valores agregaran una curvatura, tenemos Round y SemiRound uno mas curvo que otro. & Cadena de texto. & Round \\ [2.5ex] 
+ \hline
+ shadow & Especifica si el botón debe tener una sombra. & Cadena de texto. & Booleano. \\ [2.5ex] 
+ \hline
 \end{tabular}
 \end{center}
 \newline
 \newline
+\newline
+Los tipos (type) de botones que podemos tener son los siguientes.
+\begin{itemize}
+\item \textbf{Default:} Es el botón que se recomienda usar como principal.
+\item \textbf{Secondary:} Es recomendable usarlo si ya se usa un botón default, para cuidar la jerarquía visual.
+\item \textbf{Text:} Este es un botón sin contorno, debe ser usado para acciones con poca importancia.
+\end{itemize}
 Los colores que se usan son una constante definida por la librería ya que se considera que son cromáticamente compatibles entre ellos, este tema se abordará más adelante.
 A continuación se muestra un fragmento del código que permite agregar la configuración requerida.
 \newline
@@ -68,4 +83,78 @@ Dentro del archivo CSS agregamos el diseño base de nuestro botón, aquí tenemo
 \newline
 
 
+
+\subsection{ELEMENTO LABEL}
+Ahora vamos a agregar el elemento Label que es un texto con el cual tenemos un formato estandarizado para tener un mejor diseño. En este elemento podemos dar parámetros de configuración como el tamaño, grosor y color que son los elementos básicos que se usan cuando estamos formateando con CSS nuestro texto. 
+A continuación se presenta una lista de los parámetros y  su significado.
+\newline
+\begin{center}
+ \begin{tabular}{ | c |  p{5cm}  | c | p{3cm} |} 
+ \hline
+ \textbf{Nombre} &  \textbf{Uso} &  \textbf{ Tipo de dato} &  \textbf{Valor por defecto}\\ [0.5ex] 
+ \hline\hline
+text 		& Este parámetro  indica el texto que vamos a mostrar.  &  Cadena de texto. 	& “I’m a label” \\  [2.5ex] 
+ \hline
+size 	        & Indicamos el tamaño del texto. Se cuenta con un conjunto de tamaños establecidos que se mencionan en el apartado de las constantes.       & Cadena de texto.  	& small \\[2.5ex] 
+ \hline
+color        & Es el color del texto.						    & Cadena de texto. 	& --black-0 \\[3.5ex] 
+ \hline
+ weight.   & Indicamos el grosor del texto. Se cuenta con un conjunto de tamaños establecidos que se mencionan en el apartado de las constantes.&  Cadena de texto. 	& regular \\[2.5ex] 
+ \hline
+\end{tabular}
+\end{center}
+\newline
+\newline
+Para el funcionamiento de la etiqueta de texto se tiene un componente de react en el cual se crea un objeto de JAVASCRIPT, se agrega la configuración del color, tamaño de texto y grosor. Finalmente se crea una etiqueta de HTML a la cual le damos nuestro objeto para que aplique el estilo y le ponemos el texto que se quiere mostrar.
+\newline
+\newline
+\includegraphics[width=1\textwidth]{./Imagenes/carbon-11.png}
+\newline
+\newline
+
+
+
+\subsection{ELEMENTO INPUT TEX}
+El input text es de utilidad para permitir la entrada de datos, y posteriormente puede ser procesado para enviarlos a algún servicio o procesarlos dentro de nuestra aplicación en donde es implementado.
+Los datos de entrada que son necesarios para configurar el elemento se muestran a continuación.
+\newline
+\newline
+\begin{center}
+ \begin{tabular}{ | c |  p{5cm}  | c | p{3cm} |} 
+ \hline
+ \textbf{Nombre} &  \textbf{Uso} &  \textbf{ Tipo de dato} &  \textbf{Valor por defecto}\\ [0.5ex] 
+ \hline\hline
+placeholder &Es el texto que muestra el InputText si se desea poner.  &  Cadena de texto. 	& “Write on me!” \\  [2.5ex] 
+ \hline
+onChange & Es la función que va a hacer invocada cuando se escriba.     & Función vacía.  	& Función vacía.l \\[2.5ex] 
+ \hline
+nameState & Es el nombre con el cual se identifica en el estado.    & Cadena de texto.	& input \\[3.5ex] 
+ \hline
+ type   & Es la manera en como será interpretado por Input Text, estos son los que existen por defecto en HTML. Password etc.&  Cadena de texto.	& text \\[2.5ex] 
+ \hline
+ title  & Si se pone como “true” este agregara un Label antes del Input Text y no lo pondrá dentro.&  Booleano.	& false \\[2.5ex] 
+ \hline
+ extraStyle   & Si se desea agregar más estilos se puede poner el nombre de la clase CSS para poder ser manipulado.&  Cadena de texto. 	& Cadena vacía. \\[2.5ex] 
+ \hline
+\end{tabular}
+\end{center}
+\newline
+\newline
+La primera consideración que se tiene, es saber si se necesita tener un “Título” en nuestro Input Text, y si es así, se agrega un elemento Label antes,  para mostrar cual es el significado de nuestro label. Esto por ejemplo, si se quiere poner una entrada de texto para solicitar el correo electronico de cierta persona, esto puede estar dentro de el Input Texto denominado placeholder o afuera denominado title, por defecto title está desactivado y se activa enviando “true”.
+Cuando se escribe sobre el campo de texto, este llama a la función “onChange” que recibe, se regresa el nombre de como está identificado en el estado de REACT y el valor que contiene el campo de texto.
+Los demás parámetros de los estilos también son agregados en el siguiente código.
+\newline
+\newline
+\includegraphics[width=1\textwidth]{./Imagenes/carbon-12.png}
+\newline
+\newline
+
+
+
+\subsection{ELEMENTO DROP DOWN}
+\subsection{ELEMENTO RADIO BUTTON}
+\subsection{ELEMENTO SWITCH}
+\subsection{ELEMENTO TABLE}
+\subsection{ELEMENTO CHECK BOX}
+\subsection{ELEMENTO IMAGE}
 

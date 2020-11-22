@@ -18,8 +18,16 @@
 \contentsline {section}{\numberline {6.2}DESARROLLO}{36}%
 \contentsline {subsection}{\numberline {6.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{36}%
 \contentsline {subsection}{\numberline {6.2.2}ELEMENTO BOTÓN}{37}%
-\contentsline {section}{\numberline {6.3}TEST }{41}%
-\contentsline {chapter}{\numberline {7}RESULTADOS}{42}%
-\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{43}%
-\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{44}%
-\contentsline {chapter}{\numberline {10}ANEXOS}{45}%
+\contentsline {subsection}{\numberline {6.2.3}ELEMENTO LABEL}{41}%
+\contentsline {subsection}{\numberline {6.2.4}ELEMENTO INPUT TEX}{43}%
+\contentsline {subsection}{\numberline {6.2.5}ELEMENTO DROP DOWN}{47}%
+\contentsline {subsection}{\numberline {6.2.6}ELEMENTO RADIO BUTTON}{47}%
+\contentsline {subsection}{\numberline {6.2.7}ELEMENTO SWITCH}{47}%
+\contentsline {subsection}{\numberline {6.2.8}ELEMENTO TABLE}{47}%
+\contentsline {subsection}{\numberline {6.2.9}ELEMENTO CHECK BOX}{47}%
+\contentsline {subsection}{\numberline {6.2.10}ELEMENTO IMAGE}{47}%
+\contentsline {section}{\numberline {6.3}TEST }{47}%
+\contentsline {chapter}{\numberline {7}RESULTADOS}{48}%
+\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{49}%
+\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{50}%
+\contentsline {chapter}{\numberline {10}ANEXOS}{51}%
