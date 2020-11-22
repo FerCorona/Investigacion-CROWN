@@ -5,29 +5,31 @@
 \contentsline {section}{\numberline {3.1}OBJETIVOS GENERALES}{10}%
 \contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{10}%
 \contentsline {chapter}{\numberline {4}ALCANCES Y LIMITACIONES }{12}%
-\contentsline {chapter}{\numberline {5}MARCO TEÓRICO }{13}%
-\contentsline {chapter}{\numberline {6}PROCEDIMIENTO Y DESCRIPCIÓN DE LAS ACTIVIDADES REALIZADAS}{18}%
-\contentsline {section}{\numberline {6.1}CREACIÓN DEL AMBIENTE DE DESARROLLO}{21}%
-\contentsline {subsection}{\numberline {6.1.1}AMBIENTE DE DESARROLLO}{21}%
-\contentsline {subsection}{\numberline {6.1.2}INICIALIZACIÓN DEL ARCHIVO NPM}{22}%
-\contentsline {subsection}{\numberline {6.1.3}INICIALIZACIÓN DE GIT EN NUESTRO PROYECTO }{26}%
-\contentsline {subsection}{\numberline {6.1.4}CONFIGURACIÓN WEBPACK}{27}%
-\contentsline {subsection}{\numberline {6.1.5}CONFIGURACIÓN BABEL}{31}%
-\contentsline {subsection}{\numberline {6.1.6}AGREGAR REACT AL PROYECTO}{32}%
-\contentsline {subsection}{\numberline {6.1.7}CONFIGURACIÓN ESLINT }{33}%
-\contentsline {section}{\numberline {6.2}DESARROLLO}{36}%
-\contentsline {subsection}{\numberline {6.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{36}%
-\contentsline {subsection}{\numberline {6.2.2}ELEMENTO BOTÓN}{37}%
-\contentsline {subsection}{\numberline {6.2.3}ELEMENTO LABEL}{41}%
-\contentsline {subsection}{\numberline {6.2.4}ELEMENTO INPUT TEX}{43}%
-\contentsline {subsection}{\numberline {6.2.5}ELEMENTO DROP DOWN}{47}%
-\contentsline {subsection}{\numberline {6.2.6}ELEMENTO RADIO BUTTON}{47}%
-\contentsline {subsection}{\numberline {6.2.7}ELEMENTO SWITCH}{47}%
-\contentsline {subsection}{\numberline {6.2.8}ELEMENTO TABLE}{47}%
-\contentsline {subsection}{\numberline {6.2.9}ELEMENTO CHECK BOX}{47}%
-\contentsline {subsection}{\numberline {6.2.10}ELEMENTO IMAGE}{47}%
-\contentsline {section}{\numberline {6.3}TEST }{47}%
-\contentsline {chapter}{\numberline {7}RESULTADOS}{48}%
-\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{49}%
-\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{50}%
-\contentsline {chapter}{\numberline {10}ANEXOS}{51}%
+\contentsline {section}{\numberline {4.1}ALCANCES}{12}%
+\contentsline {section}{\numberline {4.2}LIMITACIONES}{14}%
+\contentsline {chapter}{\numberline {5}MARCO TEÓRICO }{16}%
+\contentsline {chapter}{\numberline {6}PROCEDIMIENTO Y DESCRIPCIÓN DE LAS ACTIVIDADES REALIZADAS}{21}%
+\contentsline {section}{\numberline {6.1}CREACIÓN DEL AMBIENTE DE DESARROLLO}{24}%
+\contentsline {subsection}{\numberline {6.1.1}AMBIENTE DE DESARROLLO}{24}%
+\contentsline {subsection}{\numberline {6.1.2}INICIALIZACIÓN DEL ARCHIVO NPM}{25}%
+\contentsline {subsection}{\numberline {6.1.3}INICIALIZACIÓN DE GIT EN NUESTRO PROYECTO }{29}%
+\contentsline {subsection}{\numberline {6.1.4}CONFIGURACIÓN WEBPACK}{30}%
+\contentsline {subsection}{\numberline {6.1.5}CONFIGURACIÓN BABEL}{34}%
+\contentsline {subsection}{\numberline {6.1.6}AGREGAR REACT AL PROYECTO}{35}%
+\contentsline {subsection}{\numberline {6.1.7}CONFIGURACIÓN ESLINT }{36}%
+\contentsline {section}{\numberline {6.2}DESARROLLO}{39}%
+\contentsline {subsection}{\numberline {6.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{39}%
+\contentsline {subsection}{\numberline {6.2.2}ELEMENTO BOTÓN}{40}%
+\contentsline {subsection}{\numberline {6.2.3}ELEMENTO LABEL}{44}%
+\contentsline {subsection}{\numberline {6.2.4}ELEMENTO INPUT TEX}{46}%
+\contentsline {subsection}{\numberline {6.2.5}ELEMENTO DROP DOWN}{50}%
+\contentsline {subsection}{\numberline {6.2.6}ELEMENTO RADIO BUTTON}{50}%
+\contentsline {subsection}{\numberline {6.2.7}ELEMENTO SWITCH}{50}%
+\contentsline {subsection}{\numberline {6.2.8}ELEMENTO TABLE}{50}%
+\contentsline {subsection}{\numberline {6.2.9}ELEMENTO CHECK BOX}{50}%
+\contentsline {subsection}{\numberline {6.2.10}ELEMENTO IMAGE}{50}%
+\contentsline {section}{\numberline {6.3}TEST }{50}%
+\contentsline {chapter}{\numberline {7}RESULTADOS}{51}%
+\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{52}%
+\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{53}%
+\contentsline {chapter}{\numberline {10}ANEXOS}{54}%
