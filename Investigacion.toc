@@ -2,8 +2,8 @@
 \contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{3}%
 \contentsline {chapter}{\numberline {2}JUSTIFICACIÓN }{4}%
 \contentsline {chapter}{\numberline {3}OBJETIVOS }{10}%
-\contentsline {section}{\numberline {3.1}Objetivos Generales}{10}%
-\contentsline {section}{\numberline {3.2}Objetivos Específicos}{10}%
+\contentsline {section}{\numberline {3.1}OBJETIVOS GENERALES}{10}%
+\contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{10}%
 \contentsline {chapter}{\numberline {4}ALCANCES Y LIMITACIONES }{12}%
 \contentsline {chapter}{\numberline {5}MARCO TEÓRICO }{13}%
 \contentsline {chapter}{\numberline {6}PROCEDIMIENTO Y DESCRIPCIÓN DE LAS ACTIVIDADES REALIZADAS}{18}%
@@ -15,11 +15,11 @@
 \contentsline {subsection}{\numberline {6.1.5}CONFIGURACIÓN BABEL}{31}%
 \contentsline {subsection}{\numberline {6.1.6}AGREGAR REACT AL PROYECTO}{32}%
 \contentsline {subsection}{\numberline {6.1.7}CONFIGURACIÓN ESLINT }{33}%
-\contentsline {section}{\numberline {6.2}DESARROLLO}{35}%
-\contentsline {subsection}{\numberline {6.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{35}%
-\contentsline {subsection}{\numberline {6.2.2}ELEMENTO BOTÓN}{36}%
-\contentsline {section}{\numberline {6.3}TEST }{39}%
-\contentsline {chapter}{\numberline {7}RESULTADOS}{40}%
-\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{41}%
-\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{42}%
-\contentsline {chapter}{\numberline {10}ANEXOS}{43}%
+\contentsline {section}{\numberline {6.2}DESARROLLO}{36}%
+\contentsline {subsection}{\numberline {6.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{36}%
+\contentsline {subsection}{\numberline {6.2.2}ELEMENTO BOTÓN}{37}%
+\contentsline {section}{\numberline {6.3}TEST }{41}%
+\contentsline {chapter}{\numberline {7}RESULTADOS}{42}%
+\contentsline {chapter}{\numberline {8}CONCLUSIONES Y RECOMENDACIONES}{43}%
+\contentsline {chapter}{\numberline {9}FUENTES DE INFORMACIÓN}{44}%
+\contentsline {chapter}{\numberline {10}ANEXOS}{45}%

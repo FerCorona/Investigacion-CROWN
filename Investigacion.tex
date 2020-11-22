@@ -8,12 +8,24 @@
 
 \usepackage{graphicx}
 
+\usepackage{titlesec}
+ 
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+  
 \pagestyle{plain}
 
 \doublespacing
 
+\author{
+  Fernando Garcia Corona\\
+  \texttt{https://github.com/FerCorona/crown}
+}
+\title{DESARROLLO DE UNA LIBRERÍA NPM DE FRONT-END BASADA EN COMPONENTES DE REACT PARA EL ÁGIL MAQUETADO DE UNA PÁGINA WEB USANDO BUENAS PRÁCTICAS DE DISEÑO UX/UI}
+
 
 \begin{document}
+	\maketitle
 
 	\tableofcontents
 	
@@ -23,10 +35,10 @@
 			\input{./Justificacion/justificacion.tex}
 		
 		\chapter {OBJETIVOS }
-			\section {Objetivos Generales}
+			\section {OBJETIVOS GENERALES}
 				\input{./Objetivos/objetivosGenerales.tex}
 			
-			\section {Objetivos Específicos} 
+			\section {OBJETIVOS ESPECÍFICOS} 
 				\input{./Objetivos/objetivosEspecificos.tex}
 			
 		\chapter {ALCANCES Y LIMITACIONES }

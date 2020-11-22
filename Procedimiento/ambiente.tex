@@ -5,25 +5,26 @@ El primer paso que se debe realizarse es colocarse en el directorio en el que se
  \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image15.png}
  \newline
- 
+ \newline
  Después se creó la carpeta de desarrollo con el siguiente comando. Se llamó de manera simbólica como “crown”, que significa en español “corona”.
  \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image7.png}
 \newline
-
+\newline
 Dentro de esta carpeta debemos crear dos carpetas, una tendrá el código fuente, y la otra tendrá el resultado del código procesado que se importará por otros proyectos. Solo debemos ejecutar el siguiente comando dentro de “crown”.
  \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image37.png}
 \newline
-
+\newline
 
 \subsection{INICIALIZACIÓN DEL ARCHIVO NPM}
 Se continúo inicializando el archivo de NPM, el cual nos sirve para llevar el control de las dependencias de JAVASCRIPT que se vayan agregando, esto ejecutando el siguiente comando.
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image11.png}
+\newline
 \newline
 Al introducir el comando anterior este preguntara por una lista de datos necesarios, para tener el control de los paquetes, estos son los siguientes datos que se deben proporcionar:
 \begin{itemize}
@@ -42,10 +43,9 @@ Todo esto generará un archivo final llamado package.json en el directorio raíz
 Finalmente preguntará si la información introducida es correcta  y nos confirmara con una impresión en consola de los datos que estarán almacenados en el archivo.
 \newline
 \newline
-\newline
 \includegraphics[width=1\textwidth]{./Imagenes/image9.png}
 \newline
-
+\newline
 
 \subsection{INICIALIZACIÓN DE GIT EN NUESTRO PROYECTO }
 Ahora se continuará agregando GIT en nuestro proyecto, esto nos garantizara el control de los cambios que se vayan realizando, para en caso de catástrofes poder regresar a una versión anterior, También podemos crear ramas,  para alojar nuevas funcionalidades que se requieran ser agregadas, eso sin afectar el estado del proyecto que ya está funcionando y cuando la nueva función esté completa y probada poder mezclarla con el original (la rama master).
@@ -54,6 +54,7 @@ Incluir GIT no es una tarea compleja, basta con ejecutar el siguiente comando en
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image35.png}
 \newline
+\newline
 Creará una carpeta oculta (“/.git”) que nos permitirá manipular nuestro código con la línea de comandos de git, como crear ramas, hacer commit, hacer el merge de una rama etc.
 Para que esto funcione es necesario que el archivo creado anteriormente “package.json” conozca la ubicación remota de nuestro repositorio, se creó una cuenta en GITHUB  y se agregó un repositorio, el cual debemos copiar la dirección url y pegarla en el archivo “package.json”,  en el apartado llamado “repository” , en la llave “url” como se muestra en la imagen.
 Al la url que acabamos de copiar agregamos el prefijo “git+” y el postfijo “.git”.
@@ -61,7 +62,7 @@ Al la url que acabamos de copiar agregamos el prefijo “git+” y el postfijo �
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image4.png}
 \newline
-
+\newline
 
 \subsection{CONFIGURACIÓN WEBPACK}
 WEBPACK es una tecnología utilizada en gran cantidad de proyectos de Front-end. Es útil cuando se trabaja en base a una estructura modular, en este caso modula nuestra librería para poder ser agregada en otros proyectos. Nos permite que el resultado final de nuestro proyecto sea menos pesado, esto es logrado por que concatena el código eliminando espacios no necesarios para el intérprete del navegador, lo que deja un archivo con código que no es del todo entendible para las personas pero que es muchos bits menos pesado para el navegador.
@@ -71,10 +72,12 @@ Para hacerlo funcionar debemos ejecutar una serie de comandos, que se enlistan a
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image3.png}
 \newline
+\newline
 Los anteriores comandos agregan al proyecto en núcleo de WEBPACK, así como su cliente de comandos para la manipulación y visualización de archivos. Después de ejecutar los comandos se debe agregar los siguientes comandos en archivo “package.json”  en la sección de scripts, los script son los siguientes.
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image6.png}
+\newline
 \newline
 Los comandos agregados nos son de utilidad para:
 \begin{itemize}
@@ -90,6 +93,7 @@ Necesitamos agregar ciertos cargadores de WEPACK para poder usar SASS y CSS, con
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image8.png}
+\newline
 \newline
 Con esto tenemos listas las dependencias necesarias para usar SASS / CSS y para poder manejar archivos como imágenes en JAVASCRIPT, tenemos que agregar la siguiente configuración en nuestro archivo webpack.config.js.
 \newline
@@ -112,15 +116,18 @@ Solo es necesario agregar las siguientes dependencias, con el siguiente comando.
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image36.png}
 \newline
+\newline
 Después debemos crear un archivo en el directorio raíz llamado “.babelrc”, al cual debemos agregar la siguiente configuración.
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image17.png}
 \newline
+\newline
 Y finalmente solo debemos agregar la siguiente configuración al archivo webpack.config.js en el apartado de “rules” dentro de “module”.
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image1.png}
+\newline
 \newline
 Esto para que WEWPACK sea el encargado de traducir el código con ayuda de BABEL.
 
@@ -130,6 +137,7 @@ REACT es una parte fundamental en el desarrollo de la presente librería y para 
 \newline
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image23.png}
+\newline
 \newline
 Para este comando no se agrega la bandera “–save-dev” al final, por que de esta manera forzamos a que cuando se instale esta librería también se instale REACT en caso de que no estuviera, ya que nuestra librería necesita REACT para su ejecución.
 
@@ -141,10 +149,13 @@ Para esto debemos ejecutar las siguientes dependencias en la terminal.
 \newline
 \includegraphics[width=1\textwidth]{./Imagenes/image14.png}
 \newline
+\newline
 Dentro de las dependencias que agregamos se encuentran algunos complementos (plugins) que nos ayudan a dar formato a los archivos JSX, a verificar la sintaxis de REACT y  puede verificar que la importación de algún archivo realmente arroje un resultado.
 Debemos agregar un archivo en el que definiremos un conjunto de reglas específicas las cuales nuestros archivos van a cumplir, para agregar el archivo se debe ejecutar el siguiente comando.
 \newline
+\newline
 \includegraphics[width=1\textwidth]{./Imagenes/image32.png}
+\newline
 \newline
 Después de ejecutar el comando este preguntara por datos para la configuración de ESLINT, a continuación, se enlistan cada uno de los datos introducidos.
 \begin{itemize}
