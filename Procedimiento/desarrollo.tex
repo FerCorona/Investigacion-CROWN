@@ -1,33 +1,45 @@
-\subsection{CONFIGURACIÓN ARCHIVO INICIAL}
-El proyecto contendrá un nodo raíz el cual será el que tendrá los llamados al conjunto de elementos que tendrá nuestra librería. Anteriormente se creó un directorio llamado “src” en la raíz de “crown”, dentro de “src” debemos crear un archivo llamado “index.js” este es un archivo de JAVASCRPT el cual definiremos como punto de inicio de webpack  y a partir de este buscará todas las importaciones de otros submódulos. Con el siguiente comando creamos el archivo requerido.
+\subsection{Configuración Archivo Inicial}
+El proyecto contendrá un nodo raíz el cual será el que tendrá los llamados al conjunto de elementos que tendrá nuestra librería. Anteriormente se creó un directorio llamado “src” en la raíz de “crown”, dentro de “src” debemos crear un archivo llamado “index.js” este es un archivo de JavaScript el cual definiremos como punto de inicio de Webpack  y a partir de este buscará todas las importaciones de otros submódulos. Con el siguiente comando creamos el archivo requerido.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon.png}
+     \begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon.png}
+    \caption[Inicializar archivo vacío]{Inicializar archivo vacío}
+    \end{figure}
 \newline
 \newline
 Dentro de este archivo debemos poner el llamado a cada elemento que se vaya agregando a nuestra librería ( Botones, Campos de texto, Tablas etc.), en la siguiente ilustración se muestra la manera en que se deben agregar los elementos.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-2.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-2.png}
+    \caption[Inclusión de los elementos]{Inclusión de los elementos}
+    \end{figure}
 \newline
 \newline
 El primer bloque de código muestra la importación de cada uno de los elementos a nuestro archivo index, y la segunda parte exportamos un objeto de JAVASCRIPT con cada uno de los elementos.
-WEBPACK analiza cada elemento que se incluye en el objeto y busca el contenido existente dentro de cada uno.
+Webpack analiza cada elemento que se incluye en el objeto y busca el contenido existente dentro de cada uno.
 Cada uno de los elementos que se necesita agregar deben estar situados a la misma altura del archivo “index.js” esto dentro del directorio “src” para que puedan ser procesados.
 
 
 
-\subsection{ELEMENTO BOTÓN}
+\subsection{Elemento Botón}
 El primer elemento que vamos a agregar es el botón, para esto creamos un directorio llamado “Botton” de la siguiente manera.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-3.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-3.png}
+    \caption[Crear directorio para el elemento Button]{Crear directorio para el elemento Button}
+    \end{figure}
 \newline
 \newline
 Y dentro de este directorio crearemos dos archivo que son los que incluirán el núcleo de nuestro botón, el primer archivo se llamará “index.js ” esto es así ya que por defecto, cuando importas un archivo que está dentro de un directorio, JAVASCRIPT toma el que es llamado “index.js” y no es necesario especificar este dato, esto lo podemos ver de manera clara en el archivo inicial “index.js” que está al mismo nivel que el directorio “Botton”, el cual importa el elemento Botton pero no especifica el archivo. Este archivo solamente hace el llamado al segundo archivo “Botton.js” que es el que tiene el código fuente del botón. 
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-5.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-5.png}
+    \caption[Contenido del elemento Button]{Contenido del elemento Button}
+    \end{figure}
 \newline
 \newline
 El segundo archivo ya mencionado “Botton.js”  hace el render de nuestro botón, y gestiona la configuración que el usuario final quiera asignarle.
@@ -70,7 +82,10 @@ Los colores que se usan son una constante definida por la librería ya que se co
 A continuación se muestra un fragmento del código que permite agregar la configuración requerida.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-9.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-9.png}
+    \caption[Código fuente del elemento Button]{Código fuente del elemento Button}
+    \end{figure}
 \newline
 \newline
 En la primera parte podemos ver una lista de la configuración dada,  después definimos un objeto llamado styles el cual agrega dentro de un switch el CSS para que sea mostrado de acuerdo al tipo ( type ) de botón que se quiere. Finalmente regresa HTML el cual es nuestro botón configurado.
@@ -78,13 +93,16 @@ Se puede observar que dentro de la etiqueta <a> tenemos “className” esto agr
 Dentro del archivo CSS agregamos el diseño base de nuestro botón, aquí tenemos el  tamaño de la letra, tamaño del botón, grosor de letra y otras cosas más.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/image26.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/image26.png}
+    \caption[Estilos del elemento Button]{Estilos del elemento Button}
+    \end{figure}
 \newline
 \newline
 
 
 
-\subsection{ELEMENTO LABEL}
+\subsection{Elemento Label}
 Ahora vamos a agregar el elemento Label que es un texto con el cual tenemos un formato estandarizado para tener un mejor diseño. En este elemento podemos dar parámetros de configuración como el tamaño, grosor y color que son los elementos básicos que se usan cuando estamos formateando con CSS nuestro texto. 
 A continuación se presenta una lista de los parámetros y  su significado.
 \newline
@@ -108,13 +126,16 @@ color        & Es el color del texto.						    & Cadena de texto. 	& --black-0 \
 Para el funcionamiento de la etiqueta de texto se tiene un componente de react en el cual se crea un objeto de JAVASCRIPT, se agrega la configuración del color, tamaño de texto y grosor. Finalmente se crea una etiqueta de HTML a la cual le damos nuestro objeto para que aplique el estilo y le ponemos el texto que se quiere mostrar.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-11.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-11.png}
+    \caption[Código fuente del elemento Label]{Código fuente del elemento Label}
+    \end{figure}
 \newline
 \newline
 
 
 
-\subsection{ELEMENTO INPUT TEX}
+\subsection{Elemento Input Tex}
 El input text es de utilidad para permitir la entrada de datos, y posteriormente puede ser procesado para enviarlos a algún servicio o procesarlos dentro de nuestra aplicación en donde es implementado.
 Los datos de entrada que son necesarios para configurar el elemento se muestran a continuación.
 \newline
@@ -145,16 +166,19 @@ Cuando se escribe sobre el campo de texto, este llama a la función “onChange�
 Los demás parámetros de los estilos también son agregados en el siguiente código.
 \newline
 \newline
-\includegraphics[width=1\textwidth]{./Imagenes/carbon-12.png}
+\begin{figure}[H]
+    \includegraphics[width=1\textwidth]{./Imagenes/carbon-12.png}
+    \caption[Código fuente del elemento InputText]{Código fuente del elemento InputText}
+    \end{figure}
 \newline
 \newline
 
 
 
-\subsection{ELEMENTO DROP DOWN}
-\subsection{ELEMENTO RADIO BUTTON}
-\subsection{ELEMENTO SWITCH}
-\subsection{ELEMENTO TABLE}
-\subsection{ELEMENTO CHECK BOX}
-\subsection{ELEMENTO IMAGE}
+\subsection{Elemento Drop Down}
+\subsection{Elemento Radio Button}
+\subsection{Elemento Switch}
+\subsection{Elemento Table}
+\subsection{Elemento Check Box}
+\subsection{Elemento Image}
 

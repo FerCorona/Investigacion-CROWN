@@ -1,37 +1,38 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{3}%
-\contentsline {chapter}{\numberline {2}JUSTIFICACIÓN }{4}%
-\contentsline {chapter}{\numberline {3}OBJETIVOS }{9}%
-\contentsline {section}{\numberline {3.1}OBJETIVOS GENERALES}{9}%
-\contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{9}%
-\contentsline {chapter}{\numberline {4}CARACTERIZACIÓN DEL ÁREA EN QUE SE PARTICIPÓ }{10}%
-\contentsline {chapter}{\numberline {5}PROBLEMAS A RESOLVER CON SU RESPECTIVA PRIORIZACIÓN }{11}%
-\contentsline {chapter}{\numberline {6}ALCANCES Y LIMITACIONES }{13}%
-\contentsline {section}{\numberline {6.1}ALCANCES}{13}%
-\contentsline {section}{\numberline {6.2}LIMITACIONES}{14}%
-\contentsline {chapter}{\numberline {7}MARCO TEÓRICO }{16}%
-\contentsline {chapter}{\numberline {8}PROCEDIMIENTO Y DESCRIPCIÓN DE LAS ACTIVIDADES REALIZADAS}{20}%
-\contentsline {section}{\numberline {8.1}CREACIÓN DEL AMBIENTE DE DESARROLLO}{23}%
-\contentsline {subsection}{\numberline {8.1.1}AMBIENTE DE DESARROLLO}{23}%
-\contentsline {subsection}{\numberline {8.1.2}INICIALIZACIÓN DEL ARCHIVO NPM}{24}%
-\contentsline {subsection}{\numberline {8.1.3}INICIALIZACIÓN DE GIT EN NUESTRO PROYECTO }{26}%
-\contentsline {subsection}{\numberline {8.1.4}CONFIGURACIÓN WEBPACK}{28}%
-\contentsline {subsection}{\numberline {8.1.5}CONFIGURACIÓN BABEL}{31}%
-\contentsline {subsection}{\numberline {8.1.6}AGREGAR REACT AL PROYECTO}{32}%
-\contentsline {subsection}{\numberline {8.1.7}CONFIGURACIÓN ESLINT }{32}%
-\contentsline {section}{\numberline {8.2}DESARROLLO}{35}%
-\contentsline {subsection}{\numberline {8.2.1}CONFIGURACIÓN ARCHIVO INICIAL}{35}%
-\contentsline {subsection}{\numberline {8.2.2}ELEMENTO BOTÓN}{36}%
-\contentsline {subsection}{\numberline {8.2.3}ELEMENTO LABEL}{39}%
-\contentsline {subsection}{\numberline {8.2.4}ELEMENTO INPUT TEX}{41}%
-\contentsline {subsection}{\numberline {8.2.5}ELEMENTO DROP DOWN}{44}%
-\contentsline {subsection}{\numberline {8.2.6}ELEMENTO RADIO BUTTON}{44}%
-\contentsline {subsection}{\numberline {8.2.7}ELEMENTO SWITCH}{44}%
-\contentsline {subsection}{\numberline {8.2.8}ELEMENTO TABLE}{44}%
-\contentsline {subsection}{\numberline {8.2.9}ELEMENTO CHECK BOX}{44}%
-\contentsline {subsection}{\numberline {8.2.10}ELEMENTO IMAGE}{44}%
-\contentsline {section}{\numberline {8.3}TEST }{44}%
-\contentsline {chapter}{\numberline {9}RESULTADOS}{45}%
-\contentsline {chapter}{\numberline {10}CONCLUSIONES Y RECOMENDACIONES}{46}%
-\contentsline {chapter}{\numberline {11}FUENTES DE INFORMACIÓN}{47}%
-\contentsline {chapter}{\numberline {12}ANEXOS}{51}%
+\contentsline {chapter}{\'{I}ndice de figuras}{2}%
+\contentsline {chapter}{\numberline {1}Introducción}{5}%
+\contentsline {chapter}{\numberline {2}Justificación }{6}%
+\contentsline {chapter}{\numberline {3}Objetivos }{11}%
+\contentsline {section}{\numberline {3.1}Objetivos Generales}{11}%
+\contentsline {section}{\numberline {3.2}Objetivos Específicos}{11}%
+\contentsline {chapter}{\numberline {4}Caracterización Del Área En La Que Se Participó }{12}%
+\contentsline {chapter}{\numberline {5}Problemas A Rerolver Ccon Su Respectiva Priorización }{13}%
+\contentsline {chapter}{\numberline {6}Aalcances Y Limitaciones }{15}%
+\contentsline {section}{\numberline {6.1}ALCANCES}{15}%
+\contentsline {section}{\numberline {6.2}LIMITACIONES}{17}%
+\contentsline {chapter}{\numberline {7}Marco Teórico }{18}%
+\contentsline {chapter}{\numberline {8}Procedimiento Y Descripción De Las Actividades Realizadas}{22}%
+\contentsline {section}{\numberline {8.1}Creación Del Aambiente De Desarrolo}{25}%
+\contentsline {subsection}{\numberline {8.1.1}Ambiente De Desarrollo}{25}%
+\contentsline {subsection}{\numberline {8.1.2}Inicialización Del Archivo NPM}{26}%
+\contentsline {subsection}{\numberline {8.1.3}Inicialización De Git En Nuestro Proyecto }{29}%
+\contentsline {subsection}{\numberline {8.1.4}Configuración Web-pack}{30}%
+\contentsline {subsection}{\numberline {8.1.5}Configuración Babel}{34}%
+\contentsline {subsection}{\numberline {8.1.6}Agregar React Al Proyecto}{35}%
+\contentsline {subsection}{\numberline {8.1.7}Configuración ESLint }{36}%
+\contentsline {section}{\numberline {8.2}Desarrollo}{38}%
+\contentsline {subsection}{\numberline {8.2.1}Configuración Archivo Inicial}{38}%
+\contentsline {subsection}{\numberline {8.2.2}Elemento Botón}{39}%
+\contentsline {subsection}{\numberline {8.2.3}Elemento Label}{43}%
+\contentsline {subsection}{\numberline {8.2.4}Elemento Input Tex}{45}%
+\contentsline {subsection}{\numberline {8.2.5}Elemento Drop Down}{48}%
+\contentsline {subsection}{\numberline {8.2.6}Elemento Radio Button}{48}%
+\contentsline {subsection}{\numberline {8.2.7}Elemento Switch}{48}%
+\contentsline {subsection}{\numberline {8.2.8}Elemento Table}{48}%
+\contentsline {subsection}{\numberline {8.2.9}Elemento Check Box}{48}%
+\contentsline {subsection}{\numberline {8.2.10}Elemento Image}{48}%
+\contentsline {section}{\numberline {8.3}Test }{48}%
+\contentsline {chapter}{\numberline {9}Pruebas y Resultados}{49}%
+\contentsline {chapter}{\numberline {10}Conclusiones Y Recomendaciones}{50}%
+\contentsline {chapter}{\numberline {11}Fuentes de Información}{51}%
+\contentsline {chapter}{\numberline {12}Anexos}{55}%
