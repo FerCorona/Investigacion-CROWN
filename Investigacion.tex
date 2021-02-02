@@ -16,8 +16,9 @@
 \newgeometry{ bottom=2.5cm, top=2.5cm, left=3cm, right=2.5cm}
 
 \usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+\usepackage{hyperref}
 
-  
 \pagestyle{plain}
 
 \doublespacing
@@ -63,7 +64,7 @@
 		\chapter {Procedimiento Y Descripción De Las Actividades Realizadas}
 			\input{./Procedimiento/procedimiento.tex}
 			
-			\section {Creación Del Aambiente De Desarrolo}
+			\section {Creación Del Ambiente De Desarrolo}
 				\input{./Procedimiento/ambiente.tex}
 				
 			\section {Desarrollo}
@@ -74,6 +75,7 @@
 			
 		
 		\chapter {Pruebas y Resultados}
+			\input{./Resultados/Resultados.tex}
 		
 		\chapter {Conclusiones Y Recomendaciones}
 		
