@@ -5,7 +5,7 @@
 \BOOKMARK [1][-]{section.3.1}{Objetivos Generales}{chapter.3}% 5
 \BOOKMARK [1][-]{section.3.2}{Objetivos Espec\355ficos}{chapter.3}% 6
 \BOOKMARK [0][-]{chapter.4}{Caracterizaci\363n Del \301rea En La Que Se Particip\363 }{}% 7
-\BOOKMARK [0][-]{chapter.5}{Problemas A Rerolver Ccon Su Respectiva Priorizaci\363n }{}% 8
+\BOOKMARK [0][-]{chapter.5}{Problemas A Resolver Con Su Respectiva Priorizaci\363n }{}% 8
 \BOOKMARK [0][-]{chapter.6}{Aalcances Y Limitaciones }{}% 9
 \BOOKMARK [1][-]{section.6.1}{ALCANCES}{chapter.6}% 10
 \BOOKMARK [1][-]{section.6.2}{LIMITACIONES}{chapter.6}% 11
@@ -34,7 +34,8 @@
 \BOOKMARK [2][-]{subsection.8.2.12}{Elemento Card}{section.8.2}% 34
 \BOOKMARK [2][-]{subsection.8.2.13}{Elemento Modal}{section.8.2}% 35
 \BOOKMARK [1][-]{section.8.3}{Test }{chapter.8}% 36
-\BOOKMARK [0][-]{chapter.9}{Pruebas y Resultados}{}% 37
-\BOOKMARK [0][-]{chapter.10}{Conclusiones Y Recomendaciones}{}% 38
-\BOOKMARK [0][-]{chapter.11}{Fuentes de Informaci\363n}{}% 39
-\BOOKMARK [0][-]{chapter.12}{Anexos}{}% 40
+\BOOKMARK [1][-]{section.8.4}{Publicaci\363n de la librer\355a en NPM }{chapter.8}% 37
+\BOOKMARK [0][-]{chapter.9}{Pruebas y Resultados}{}% 38
+\BOOKMARK [0][-]{chapter.10}{Conclusiones Y Recomendaciones}{}% 39
+\BOOKMARK [0][-]{chapter.11}{Fuentes de Informaci\363n}{}% 40
+\BOOKMARK [0][-]{chapter.12}{Anexos}{}% 41

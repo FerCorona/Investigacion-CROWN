@@ -6,63 +6,67 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Impresión de texto con React}}{22}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Impresión de texto una vez el código es convertido}}{22}{figure.7.2}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Componente calculadora}}{22}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Llamado a componente}}{23}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Impresión de texto con React}}{25}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Impresión de texto una vez el código es convertido}}{25}{figure.7.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Resultado esperado de la librería}}{24}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Resultado de la llamada}}{25}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Actualización del estado}}{25}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Moverse entre directorios}}{26}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Crear nuevo directorio}}{26}{figure.8.5}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Crear nuevos directorios}}{27}{figure.8.6}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Inicializar NPM}}{27}{figure.8.7}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Archivo de salida}}{29}{figure.8.8}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Inicializar GIT}}{30}{figure.8.9}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Agregar repositorio existente}}{31}{figure.8.10}%
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Agregar Webpack}}{31}{figure.8.11}%
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Agregar scripts}}{32}{figure.8.12}%
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Crear archivo vacío}}{32}{figure.8.13}%
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Agregar cargadores de css}}{33}{figure.8.14}%
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Archivo final}}{34}{figure.8.15}%
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Archivo Babel}}{35}{figure.8.16}%
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Configurar Babel}}{35}{figure.8.17}%
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Agregar Babel en Webpack}}{36}{figure.8.18}%
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Agregar React}}{36}{figure.8.19}%
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Agregar ESLint}}{37}{figure.8.20}%
-\contentsline {figure}{\numberline {8.21}{\ignorespaces Inicializar ESLint}}{38}{figure.8.21}%
-\contentsline {figure}{\numberline {8.22}{\ignorespaces Inicializar archivo vacío}}{39}{figure.8.22}%
-\contentsline {figure}{\numberline {8.23}{\ignorespaces Inclusión de los elementos}}{40}{figure.8.23}%
-\contentsline {figure}{\numberline {8.24}{\ignorespaces Crear directorio para el elemento Button}}{41}{figure.8.24}%
-\contentsline {figure}{\numberline {8.25}{\ignorespaces Contenido del elemento Button}}{41}{figure.8.25}%
-\contentsline {figure}{\numberline {8.26}{\ignorespaces Código fuente del elemento Button}}{44}{figure.8.26}%
-\contentsline {figure}{\numberline {8.27}{\ignorespaces Estilos del elemento Button}}{45}{figure.8.27}%
-\contentsline {figure}{\numberline {8.28}{\ignorespaces Código fuente del elemento Label}}{47}{figure.8.28}%
-\contentsline {figure}{\numberline {8.29}{\ignorespaces Código fuente del elemento InputText}}{50}{figure.8.29}%
-\contentsline {figure}{\numberline {8.30}{\ignorespaces Código fuente del elemento DropDown}}{53}{figure.8.30}%
-\contentsline {figure}{\numberline {8.31}{\ignorespaces Código fuente del elemento RadioButton}}{55}{figure.8.31}%
-\contentsline {figure}{\numberline {8.32}{\ignorespaces Código fuente del elemento Switch}}{57}{figure.8.32}%
-\contentsline {figure}{\numberline {8.33}{\ignorespaces Código fuente del elemento Table}}{58}{figure.8.33}%
-\contentsline {figure}{\numberline {8.34}{\ignorespaces Código fuente del elemento CheckBox}}{60}{figure.8.34}%
-\contentsline {figure}{\numberline {8.35}{\ignorespaces Código fuente del elemento Image}}{62}{figure.8.35}%
-\contentsline {figure}{\numberline {8.36}{\ignorespaces Código fuente del elemento Image}}{63}{figure.8.36}%
-\contentsline {figure}{\numberline {8.37}{\ignorespaces Código fuente del elemento Card}}{65}{figure.8.37}%
-\contentsline {figure}{\numberline {8.38}{\ignorespaces Código fuente del elemento Modal}}{67}{figure.8.38}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Resultado esperado de la librería}}{27}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Resultado de la llamada}}{28}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Actualización del estado}}{28}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Moverse entre directorios}}{29}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Crear nuevo directorio}}{29}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Crear nuevos directorios}}{30}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Inicializar NPM}}{30}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Archivo de salida}}{32}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Inicializar GIT}}{33}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Agregar repositorio existente}}{34}{figure.8.10}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Agregar Webpack}}{34}{figure.8.11}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Agregar scripts}}{35}{figure.8.12}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Crear archivo vacío}}{35}{figure.8.13}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Agregar cargadores de css}}{36}{figure.8.14}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Archivo final}}{37}{figure.8.15}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Archivo Babel}}{38}{figure.8.16}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Configurar Babel}}{38}{figure.8.17}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Agregar Babel en Webpack}}{39}{figure.8.18}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Agregar React}}{39}{figure.8.19}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Agregar ESLint}}{40}{figure.8.20}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Inicializar ESLint}}{41}{figure.8.21}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Inicializar archivo vacío}}{42}{figure.8.22}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Inclusión de los elementos}}{43}{figure.8.23}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Crear directorio para el elemento Button}}{44}{figure.8.24}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Contenido del elemento Button}}{44}{figure.8.25}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Código fuente del elemento Button}}{47}{figure.8.26}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Estilos del elemento Button}}{48}{figure.8.27}%
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Código fuente del elemento Label}}{50}{figure.8.28}%
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Código fuente del elemento InputText}}{53}{figure.8.29}%
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Código fuente del elemento DropDown}}{56}{figure.8.30}%
+\contentsline {figure}{\numberline {8.31}{\ignorespaces Código fuente del elemento RadioButton}}{58}{figure.8.31}%
+\contentsline {figure}{\numberline {8.32}{\ignorespaces Código fuente del elemento Switch}}{60}{figure.8.32}%
+\contentsline {figure}{\numberline {8.33}{\ignorespaces Código fuente del elemento Table}}{61}{figure.8.33}%
+\contentsline {figure}{\numberline {8.34}{\ignorespaces Código fuente del elemento CheckBox}}{63}{figure.8.34}%
+\contentsline {figure}{\numberline {8.35}{\ignorespaces Código fuente del elemento Image}}{65}{figure.8.35}%
+\contentsline {figure}{\numberline {8.36}{\ignorespaces Código fuente del elemento Image}}{66}{figure.8.36}%
+\contentsline {figure}{\numberline {8.37}{\ignorespaces Código fuente del elemento Card}}{68}{figure.8.37}%
+\contentsline {figure}{\numberline {8.38}{\ignorespaces Código fuente del elemento Modal}}{70}{figure.8.38}%
+\contentsline {figure}{\numberline {8.39}{\ignorespaces ingresar a nuestra cuenta}}{71}{figure.8.39}%
+\contentsline {figure}{\numberline {8.40}{\ignorespaces Publicar paquete}}{72}{figure.8.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Instalar Create React App}}{69}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Crear una nueva app}}{70}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Directorios al crear una nueva app}}{70}{figure.9.3}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Instalando nuestra librería}}{71}{figure.9.4}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Implementación la librería}}{71}{figure.9.5}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Agregar campos al estado de React}}{72}{figure.9.6}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Código para maquetar}}{73}{figure.9.7}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Función para actualizar el estado de React}}{74}{figure.9.8}%
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Resultado final}}{75}{figure.9.9}%
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Resultado final al agregar usuarios}}{76}{figure.9.10}%
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Filtro en el estado de React}}{76}{figure.9.11}%
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Código para mostrar los platillos}}{77}{figure.9.12}%
-\contentsline {figure}{\numberline {9.13}{\ignorespaces Filtrar por comida}}{78}{figure.9.13}%
-\contentsline {figure}{\numberline {9.14}{\ignorespaces Filtrar por bebida}}{79}{figure.9.14}%
-\contentsline {figure}{\numberline {9.15}{\ignorespaces Confirmación de pedido}}{80}{figure.9.15}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Instalar Create React App}}{73}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Crear una nueva app}}{74}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Directorios al crear una nueva app}}{74}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Instalando nuestra librería}}{75}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Implementación la librería}}{75}{figure.9.5}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Agregar campos al estado de React}}{76}{figure.9.6}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Código para maquetar}}{77}{figure.9.7}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Función para actualizar el estado de React}}{78}{figure.9.8}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Resultado final}}{79}{figure.9.9}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Resultado final al agregar usuarios}}{80}{figure.9.10}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Filtro en el estado de React}}{80}{figure.9.11}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Código para mostrar los platillos}}{81}{figure.9.12}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Filtrar por comida}}{82}{figure.9.13}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Filtrar por bebida}}{83}{figure.9.14}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Confirmación de pedido}}{84}{figure.9.15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

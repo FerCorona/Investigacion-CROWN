@@ -8,8 +8,42 @@
     React nos permite desarrollar de una forma más ordenada y con el menos código necesario. 
     Se considera que React no es un Framework en comparación con ANGULAR o EMBER porque no tiene cada una de las áreas que propone el modelo vista controlador, este solo se encarga de las vistas. 
     Uno de los puntos fuertes de React es que cuenta con un DOM virtual el cual es almacenado en memoria, esto provoca que cuando algo cambie este se va reflejado en memoria de una forma más rápida, después el DOM virtual será comparado con el DOM del navegador y solo actualizara lo que encuentre diferente. 
-    React funciona en base a componentes que pueden ser reusados cuantas veces sea necesario, una forma fácil de entenderlo puede ser como la programación orientada a objetos al hacer una instancia de una clase, estos componentes pueden tener un estado, que es encapsulado por sí solo, de manera local por cada uno y puede ser actualizado.  
-    
+    React funciona en base a componentes que pueden ser reusados cuantas veces sea necesario, una forma fácil de entenderlo puede ser como la programación orientada a objetos al hacer una instancia de una clase, estos componentes pueden tener un estado, que es encapsulado por sí solo, de manera local por cada uno y puede ser actualizado.
+    Los tres elementos principales de React son los siguientes:
+ \begin{itemize}
+ 
+ 
+ \item \textbf{Componente:}Una manera fácil de explicar un componente en React es compararlo con la programación orientada a objetos, en la cual un componente es un objeto, en el que este es una base ya establecida con propiedades. Si se instancian varios objetos de el mismo tipo, estos tendrán características en común pero con ciertas propiedades que los hacen distintos entre ellos. Con este principio podemos crear varios componentes en los cuales solo cambia algún elemento diferencial, como un texto una imagen etc.
+  \item \textbf{Estado:}El estado en react siguiendo la analogía de la programación orientada a objetos, son los atributos de la clase, pero estos son internamente manejados por React, esto se refiere a que para actualizar el estado se debe usar una función proporcionada por la librería.
+   \item \textbf{Props:}Los props son los parámetros  que se le da a nuestro componente para que este actúe de manera diferente a los otros componentes de el mismo tipo.
+ \end{itemize}
+ React crea un árbol en el cual hace una copia de el DOM que guarda en la memoria RAM, una de las principales ventajas de React es la que aquí se trata. Una vez el árbol creado, este espera a que alguno de los miembros del estado se actualice y actualiza el nodo que depende de ese estado. Con esto actualiza el DOM del navegador pero solo la parte diferencia, agilizando todo el proceso.
+
+Por ejemplo si tenemos una lista nombres en nuestra web y el usuario borra uno, el navegador quitará el elemento que el usuario elige, pero no se volverá a hacer el render de toda la web.
+
+Existen dos componentes dentro de React uno es el componente classe y otro el componente función, con los que se puede tener los mismos resultados pero se usan a criterio propio.
+
+En la siguiente imagen se encuentra un componente tipo clase, en el cual nos sirve para hacer una calculadora que suma o resta un parámetro dado.
+ \newline
+       \begin{figure}[H]
+       \includegraphics[width=1\textwidth]{./Imagenes/classe.png}
+        \caption[Componente calculadora]{Componente calculadora}
+       \end{figure}
+       \newline
+    En la línea 5 dentro del constructor se inicializa el estado de nuestro componente el cual guarda el total acumulado.
+
+Dentro del return que está en el render tenemos dos etiquetas <a> ( Línea 27 y 29 ) las cuales son los botones de suma y resta de nuestra aplicación, estas hacen un llamado a las funciones de suma y resta dependiendo el operador.
+En la línea 28 mostramos el total acumulado obteniendolo de el estado mediante this.state más el nombre del elemento del estado.
+
+Las funciones sumar y restar actualizan el estado mediante this.setState, función que recibe un objeto con los datos de JavaScript que va a actualizar. En este caso suma o resta un parámetro dado por props. 
+
+La forma de hacer el llamado a un componente es la siguiente. 
+ \newline
+       \begin{figure}[H]
+       \includegraphics[width=1\textwidth]{./Imagenes/componente.png}
+        \caption[Llamado a componente]{Llamado a componente}
+       \end{figure}
+       \newline
        \item \textbf{HTML  :}   HTML \cite{html} es un lenguaje con un conjunto de etiquetas que permite definir el contenido con el que podemos interactuar dentro de una página web. 
        
        \item \textbf{ SASS :} SASS \cite{scss} es un preprocesador de CSS, el cual nos ayuda a agregar características que no tiene CSS puro y que son propias de los lenguajes de programación como variables, funciones, herencia entre otros. Nos permite dedicar menos tiempo para mantener y crear el CSS y agrega la posibilidad de tener una organización modular. 
@@ -26,7 +60,7 @@
     \includegraphics[width=1\textwidth]{./Imagenes/image16.png}
     \caption[Impresión de texto con React]{Impresión de texto con React}
     \end{figure}
-       El código será convertido en el que se muestra En la figura 7.2, el cual es interpretada por un mayor número de navegadores. 
+       El código será convertido en el que se muestra En la figura 7.4, el cual es interpretada por un mayor número de navegadores. 
        \newline
        \newline
        \begin{figure}[H]
