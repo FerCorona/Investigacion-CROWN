@@ -1,7 +1,7 @@
 Con el desarrollo de la librería ya es posible hacer la implementación de un proyecto el cual ya usa React.
 A continuación se ejemplifica el uso de la librería paso a paso.
 
-Existe una herramienta que nos permite crear el esqueleto de una web basada en React. \cite{CRA} esta es desarrollada y mantenida por Facebook, de la cual partiremos para crear una web en la que probaremos la librería.
+Existe una herramienta que nos permite crear el esqueleto de una Web basada en React. \cite{CRA} esta es desarrollada y mantenida por Facebook, de la cual partiremos para crear una Web en la que probaremos la librería.
 
 Instalaremos la herramienta llamada Create React App con el siguiente comando.
 \newline
@@ -11,7 +11,7 @@ Instalaremos la herramienta llamada Create React App con el siguiente comando.
     \end{figure}
 \newline
 
-Crearemos la web llamada ejemplo-1 con el siguiente comando.
+Crearemos la Web llamada ejemplo-1 con el siguiente comando.
 \newline
 \begin{figure}[H]
     \includegraphics[width=1\textwidth]{./Imagenes/9.2.png}
@@ -82,7 +82,7 @@ En la siguiente imagen se muestra el código necesario para desplegar en pantall
 El código contiene al inicio un componente Label el cual muestra en pantalla un texto dado con las especificaciones de preferencia, se le da un tamaño de letra y color del texto. Después siguen una serie de InputText los cuales son la entrada de datos para el nombre de usuario, correo electronico  y contraseña, Estos tienen parámetros que son importantes de mencionar ya se son indispensables para el correcto funcionamiento como son:
 placeholder: Es el texto que se mostrará en el campo de texto antes de que se introduzca un dato, para dar una pista del dato solicitado.
 value: Es el estado de React en el que se almacenará cuando ocurra un cambio.
-stateName: Es la forma en como es llamado en el estado de react ( Ejemplo. en este caso sería alguna de las llaves que se muestran en la Figura 9.6 ).
+stateName: Es la forma en como es llamado en el estado de React ( Ejemplo. en este caso sería alguna de las llaves que se muestran en la Figura 9.6 ).
 onChange: Es la función que se activará cuando algún dato se actualice.
 
 El último parámetro onChange es una función simple como la que se muestra a continuación. 
@@ -128,8 +128,8 @@ En el estado de React se tiene solamente un dato, este es el modo por el cual se
     \end{figure}
 \newline
 
-El código para maquetar los platillos es el siguiente el cual puede ser usado por ejemplo para la web de un restaurante la cual recibe los datos de algún otro servicio web.
-El código de la siguiente web cuenta con elemento DropDown que permite filtrar para mostrar comida o tragos las opciones posibles para mostrar son enviadas por el parámetro options, stateName es el nombre de llave que almacena la opción por la que se filtra, y también se tiene optionSelected que es en si el filtro.
+El código para maquetar los platillos es el siguiente el cual puede ser usado por ejemplo para la Web de un restaurante la cual recibe los datos de algún otro servicio Web.
+El código de la siguiente Web cuenta con elemento DropDown que permite filtrar para mostrar comida o tragos las opciones posibles para mostrar son enviadas por el parámetro options, stateName es el nombre de llave que almacena la opción por la que se filtra, y también se tiene optionSelected que es en si el filtro.
 
 Después se tiene un ciclo en el que se agrega cada uno de los platillos, el componente Card recibe el título de la tarjeta, la imagen y el contenido.
 \newline
@@ -165,4 +165,18 @@ También se cuenta con el elemento Modal que puede ser usado como confirmación 
     \caption[Confirmación de pedido]{Confirmación de pedido}
     \end{figure}
 \newline
+
+Para comprobar el peso que requiere la librería, se crean dos proyectos básicos de React \cite{CRA}  llamados pryectoCrown y proyectoMaterial, para el primero se instalará la librería aquí desarrollada y en el segundo se instalará Material Design.
+
+Al momento de crear las carpetas cada una tiene un peso de 241 MB, esto por el peso de la carpeta conocida node modules que guarda todas las dependencias.
+
+Después se instaló cada una de las librerías, el los proyectos. Una vez las librerías instaladas el peso final de cada archivo fue el siguiente.
+
+ \begin{itemize}
+  \item \textbf{pryectoCrown:}  249 MB
+   \item \textbf{proyectoMaterial:}   267 MB
+ \end{itemize}
+ 
+
+Lo que nos da una diferencia de 18 MB de nuestra librería con respecto a Material Design.
 

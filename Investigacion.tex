@@ -1,6 +1,8 @@
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,12pt, listof=totoc]{report}
 
 \usepackage[T1]{fontenc}
+\usepackage{arial}
+\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage[spanish]{babel}
 
@@ -15,11 +17,16 @@
 \usepackage{geometry}
 \newgeometry{ bottom=2.5cm, top=2.5cm, left=3cm, right=2.5cm}
 
+\usepackage{pdfpages}
+
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
 \usepackage{hyperref}
 
+
 \pagestyle{plain}
+
+\usepackage{etoolbox}
 
 \doublespacing
 
@@ -27,17 +34,24 @@
   Fernando Garcia Corona\\
   \texttt{https://github.com/FerCorona/crown}
 }
-\title{DESARROLLO DE UNA LIBRERÍA NPM DE FRONT-END BASADA EN COMPONENTES DE REACT PARA EL ÁGIL MAQUETADO DE UNA PÁGINA WEB USANDO BUENAS PRÁCTICAS DE DISEÑO UX/UI}
 
 \begin{document}
-	\maketitle
+	
+	\pagenumbering{Roman}
+	\includepdf[pages=-]{portada.pdf}
+	
+	\chapter* {Copia del Oficio de Impresión definitiva División de Estudios }
+	
+	\chapter* {Copia del Oficio de Impresión definitiva Sinodales}
+	
+	\chapter* {Agradecimientos }
 	
 	\tableofcontents
 		
-		\addcontentsline{toc}{chapter}{\listfigurename}
 		\listoffigures
 		
 		\chapter {Introducción}
+		\pagenumbering{arabic}
 			\input{./Introduccion/introduccion.tex}
 			
 		\chapter {Justificación }
@@ -56,7 +70,7 @@
 		\chapter {Problemas A Resolver Con Su Respectiva Priorización }
 			\input{./Problemas/Problemas.tex}
 			
-		\chapter {Aalcances Y Limitaciones }
+		\chapter {Alcances Y Limitaciones }
 				\input{./AlcancesLimitaciones/alcanceslimitaciones.tex}
 		
 		\chapter {Marco Teórico  }
@@ -67,6 +81,9 @@
 			
 			\section {Creación Del Ambiente De Desarrolo}
 				\input{./Procedimiento/ambiente.tex}
+				
+			\section {Lineamientos UX/UI}
+				\input{./Procedimiento/ui-ux.tex}
 				
 			\section {Desarrollo}
 				\input{./Procedimiento/desarrollo.tex}
@@ -82,6 +99,7 @@
 			\input{./Resultados/Resultados.tex}
 		
 		\chapter {Conclusiones Y Recomendaciones}
+			\input{./Conclusiones/conclusion.tex}
 		
 		\chapter {Fuentes de Información}
 			\input{./Bibliografia/bibliografia}

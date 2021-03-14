@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  7 FEB 2021 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  13 MAR 2021 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -28,6 +28,13 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
+
+! LaTeX Error: File `arial.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
 (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/03/22 3.42 The Babel package
 
@@ -148,6 +155,67 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count183
+\calc@Bcount=\count184
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count185
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen148
+\AM@pageheight=\dimen149
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box47
+\AM@global@opts=\toks22
+\AM@pagecnt=\count186
+\AM@toc@title=\toks23
+\c@AM@survey=\count187
+\AM@templatesizebox=\box48
+)
 
 ! LaTeX Error: File `titlesec.sty' not found.
 
@@ -158,15 +226,8 @@ Enter file name:
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/usr/local/texlive/2020basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2020basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -193,9 +254,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen146
-\Hy@linkcounter=\count183
-\Hy@pagecounter=\count184
+\@linkdim=\dimen150
+\Hy@linkcounter=\count188
+\Hy@pagecounter=\count189
 
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -208,7 +269,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2020basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count185
+\Hy@SavedSpaceFactor=\count190
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -216,14 +277,14 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count186
+\c@Hy@tempcnt=\count191
 
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen147
+\XeTeXLinkMargin=\dimen151
 
 (/usr/local/texlive/2020basic/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -232,9 +293,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count187
-\Field@Width=\dimen148
-\Fld@charsize=\dimen149
+\Fld@menulength=\count192
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -244,24 +305,20 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
- (/usr/local/texlive/2020basic/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-)
-\Hy@abspage=\count188
-\c@Item=\count189
-\c@Hfootnote=\count190
+\Hy@abspage=\count193
+\c@Item=\count194
+\c@Hfootnote=\count195
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count191
-\c@bookmark@seq@number=\count192
+\Fld@listcount=\count196
+\c@bookmark@seq@number=\count197
 
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
 k.sty
@@ -274,14 +331,23 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip52
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
 )
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.
 def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count193
-\l__pdf_internal_box=\box47
-) (./Investigacion.aux
+\l__kernel_color_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+
+LaTeX Warning: Unused global option(s):
+    [listof=totoc].
+
+(./Investigacion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 
@@ -303,37 +369,43 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `Investigacion.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
- (/usr/local/texlive/2020basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 3
+8.
+ (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen150
-\scratchbox=\box48
-\nofMPsegments=\count195
-\nofMParguments=\count196
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen151
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count266
+\scratchdimen=\dimen154
+\scratchbox=\box50
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen155
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks25
 )
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
 ty
@@ -379,8 +451,17 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 32.
+\AtBeginShipoutBox=\box51
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 38.
+
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -391,97 +472,134 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ing.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count266
+\c@section@level=\count272
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
  (./Investigacion.out) (./Investigacion.out)
 \@outlinefile=\write3
 \openout3 = `Investigacion.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-4.
-
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1
 
 
-{/usr/local/texlive/2020basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Investigacion.toc
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<portada.pdf, id=168, 614.295pt x 794.97pt>
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf>
+Package pdftex.def Info: portada.pdf  used on input line 41.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf>
+Package pdftex.def Info: portada.pdf  used on input line 41.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<portada.pdf, id=171, page=1, 614.295pt x 794.97pt>
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf, page 1>
+Package pdftex.def Info: portada.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf, page 1>
+Package pdftex.def Info: portada.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf, page 1>
+Package pdftex.def Info: portada.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf, page 1>
+Package pdftex.def Info: portada.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: portada.pdf Graphic file (type pdf)
+<use portada.pdf, page 1>
+Package pdftex.def Info: portada.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[1
+
+
+ <./portada.pdf>] [2
+
+{/usr/local/texlive/2020basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [3
+
+] [4
+
+] (./Investigacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 ...r React Al Proyecto}{40}{subsection.8.1.6}
-                                                  % [1
+(Font)              <6> on input line 5.
+ [5
 
 ])
 \tf@toc=\write4
 \openout4 = `Investigacion.toc'.
 
- [2]
-(./Investigacion.lof
+ [6] (./Investigacion.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [3
 
-] [4])
+[7
+
+] [8])
 \tf@lof=\write5
 \openout5 = `Investigacion.lof'.
 
- [5]
+ [9]
 Cap\'{\i }tulo 1.
-(./Introduccion/introduccion.tex [6
+(./Introduccion/introduccion.tex [1
 
-]) [7]
+]) [2]
 Cap\'{\i }tulo 2.
-(./Justificacion/justificacion.tex [8
+(./Justificacion/justificacion.tex [3
 
-] [9] [10] [11] [12])
+] [4] [5] [6] [7])
 Cap\'{\i }tulo 3.
 (./Objetivos/objetivosGenerales.tex) (./Objetivos/objetivosEspecificos.tex
-[13
+[8
 
-])
+] [9])
 Cap\'{\i }tulo 4.
 (./CaracterizacionAreas/CaracterizacionAreas.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--55
+Underfull \hbox (badness 10000) in paragraph at lines 1--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--55
+Underfull \hbox (badness 10000) in paragraph at lines 1--69
 
  []
 
-[14
+[10
 
 ]
 Cap\'{\i }tulo 5.
-(./Problemas/Problemas.tex [15
+(./Problemas/Problemas.tex [11
 
-]) [16]
+]) [12]
 Cap\'{\i }tulo 6.
 (./AlcancesLimitaciones/alcanceslimitaciones.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-[17
+[13
 
 ]
 
@@ -539,7 +657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  []
 
-[18]
+[14]
 
 ./AlcancesLimitaciones/alcanceslimitaciones.tex:50: LaTeX Error: There's no lin
 e here to end.
@@ -554,16 +672,22 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [19]
+) [15]
 Cap\'{\i }tulo 7.
-(./MarcoTeorico/marcoTeorico.tex [20
+(./MarcoTeorico/marcoTeorico.tex [16
 
-] [21]
-<./Imagenes/classe.png, id=466, 1312.905pt x 1565.85pt>
+]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+16.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [17]
+<./Imagenes/classe.png, id=529, 1142.2675pt x 1393.205pt>
 File: ./Imagenes/classe.png Graphic file (type png)
 <use ./Imagenes/classe.png>
 Package pdftex.def Info: ./Imagenes/classe.png  used on input line 29.
-(pdftex.def)             Requested size: 441.01773pt x 525.97867pt.
+(pdftex.def)             Requested size: 441.01773pt x 537.90558pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
@@ -582,12 +706,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22] [23 <./Imagenes/classe.png>]
-<./Imagenes/componente.png, id=477, 1158.3275pt x 409.53pt>
+[18] [19 <./Imagenes/classe.png>]
+<./Imagenes/componente.png, id=540, 964.60374pt x 213.79875pt>
 File: ./Imagenes/componente.png Graphic file (type png)
 <use ./Imagenes/componente.png>
 Package pdftex.def Info: ./Imagenes/componente.png  used on input line 43.
-(pdftex.def)             Requested size: 441.01773pt x 155.92296pt.
+(pdftex.def)             Requested size: 441.01773pt x 97.74834pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
@@ -606,18 +730,18 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24 <./Imagenes/componente.png>]
-<./Imagenes/image16.png, id=489, 1856.9375pt x 626.34pt>
+[20 <./Imagenes/componente.png>]
+<./Imagenes/image16.png, id=551, 1664.2175pt x 433.62pt>
 File: ./Imagenes/image16.png Graphic file (type png)
 <use ./Imagenes/image16.png>
 Package pdftex.def Info: ./Imagenes/image16.png  used on input line 60.
-(pdftex.def)             Requested size: 441.01773pt x 148.74773pt.
- [25]
-<./Imagenes/image5.png, id=494, 1856.9375pt x 445.665pt>
+(pdftex.def)             Requested size: 441.01773pt x 114.90875pt.
+ [21]
+<./Imagenes/image5.png, id=556, 1665.22125pt x 253.94875pt>
 File: ./Imagenes/image5.png Graphic file (type png)
 <use ./Imagenes/image5.png>
 Package pdftex.def Info: ./Imagenes/image5.png  used on input line 67.
-(pdftex.def)             Requested size: 441.01773pt x 105.83974pt.
+(pdftex.def)             Requested size: 441.01773pt x 67.25346pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--69
 
@@ -654,15 +778,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [26 <./Imagenes/image16.png> <./Imagenes/image5.png>]
+) [22 <./Imagenes/image16.png> <./Imagenes/image5.png>]
 Cap\'{\i }tulo 8.
 (./Procedimiento/procedimiento.tex
-<./Imagenes/carbon-8.png, id=502, 1760.5775pt x 1240.635pt>
+<./Imagenes/carbon-8.png, id=564, 1586.92876pt x 1069.9975pt>
 File: ./Imagenes/carbon-8.png Graphic file (type png)
 <use ./Imagenes/carbon-8.png>
 Package pdftex.def Info: ./Imagenes/carbon-8.png  used on input line 4.
-(pdftex.def)             Requested size: 441.01773pt x 310.76376pt.
- [27
+(pdftex.def)             Requested size: 441.01773pt x 297.36047pt.
+ [23
 
 ]
 
@@ -679,12 +803,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-6.png, id=507, 1760.5775pt x 517.935pt>
+<./Imagenes/carbon-6.png, id=569, 1571.8725pt x 329.23pt>
 File: ./Imagenes/carbon-6.png Graphic file (type png)
 <use ./Imagenes/carbon-6.png>
 Package pdftex.def Info: ./Imagenes/carbon-6.png  used on input line 19.
-(pdftex.def)             Requested size: 441.01773pt x 129.73631pt.
-[28 <./Imagenes/carbon-8.png>]
+(pdftex.def)             Requested size: 441.01773pt x 92.36964pt.
+[24 <./Imagenes/carbon-8.png>]
 
 ./Procedimiento/procedimiento.tex:28: LaTeX Error: There's no line here to end.
 
@@ -699,11 +823,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-7.png, id=513, 1760.5775pt x 554.07pt>
+<./Imagenes/carbon-7.png, id=575, 1571.8725pt x 366.36874pt>
 File: ./Imagenes/carbon-7.png Graphic file (type png)
 <use ./Imagenes/carbon-7.png>
 Package pdftex.def Info: ./Imagenes/carbon-7.png  used on input line 31.
-(pdftex.def)             Requested size: 441.01773pt x 138.78769pt.
+(pdftex.def)             Requested size: 441.01773pt x 102.78938pt.
 
 ./Procedimiento/procedimiento.tex:34: LaTeX Error: There's no line here to end.
 
@@ -739,7 +863,7 @@ l.36         \end{enumerate}
                             
 Things are pretty mixed up, but I think the worst is over.
 
-) (./Procedimiento/ambiente.tex [29 <./Imagenes/carbon-6.png> <./Imagenes/carbo
+) (./Procedimiento/ambiente.tex [25 <./Imagenes/carbon-6.png> <./Imagenes/carbo
 n-7.png>]
 
 ./Procedimiento/ambiente.tex:5: LaTeX Error: There's no line here to end.
@@ -754,21 +878,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image15.png, id=520, 1856.9375pt x 481.8pt>
+<./Imagenes/image15.png, id=582, 1667.22874pt x 288.07625pt>
 File: ./Imagenes/image15.png Graphic file (type png)
 <use ./Imagenes/image15.png>
 Package pdftex.def Info: ./Imagenes/image15.png  used on input line 7.
-(pdftex.def)             Requested size: 441.01773pt x 114.42133pt.
-<./Imagenes/image7.png, id=521, 1856.9375pt x 445.665pt>
+(pdftex.def)             Requested size: 441.01773pt x 76.19917pt.
+<./Imagenes/image7.png, id=583, 1664.2175pt x 256.96pt>
 File: ./Imagenes/image7.png Graphic file (type png)
 <use ./Imagenes/image7.png>
 Package pdftex.def Info: ./Imagenes/image7.png  used on input line 12.
-(pdftex.def)             Requested size: 441.01773pt x 105.83974pt.
-<./Imagenes/image37.png, id=522, 1760.5775pt x 445.665pt>
+(pdftex.def)             Requested size: 441.01773pt x 68.09407pt.
+<./Imagenes/image37.png, id=584, 1568.86125pt x 252.945pt>
 File: ./Imagenes/image37.png Graphic file (type png)
 <use ./Imagenes/image37.png>
 Package pdftex.def Info: ./Imagenes/image37.png  used on input line 19.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 71.102pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--24
 
@@ -779,12 +903,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--24
 
  []
 
-[30 <./Imagenes/image15.png> <./Imagenes/image7.png>]
-<./Imagenes/image11.png, id=531, 1760.5775pt x 445.665pt>
+<./Imagenes/image11.png, id=585, 1564.84625pt x 251.94125pt>
 File: ./Imagenes/image11.png Graphic file (type png)
 <use ./Imagenes/image11.png>
 Package pdftex.def Info: ./Imagenes/image11.png  used on input line 30.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 71.00438pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--32
 
@@ -795,6 +918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--32
 
  []
 
+[26 <./Imagenes/image15.png> <./Imagenes/image7.png>]
 
 ./Procedimiento/ambiente.tex:34: LaTeX Error: There's no line here to end.
 
@@ -821,8 +945,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[31 <./Imagenes/image37.png> <./Imagenes/image11.png>]
-<./Imagenes/image9.png, id=538, 1080.035pt x 1090.0725pt>
+[27 <./Imagenes/image37.png> <./Imagenes/image11.png>]
+<./Imagenes/image9.png, id=599, 1080.035pt x 1090.0725pt>
 File: ./Imagenes/image9.png Graphic file (type png)
 <use ./Imagenes/image9.png>
 Package pdftex.def Info: ./Imagenes/image9.png  used on input line 54.
@@ -837,7 +961,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--56
 
  []
 
-[32]
 
 ./Procedimiento/ambiente.tex:57: LaTeX Error: There's no line here to end.
 
@@ -864,11 +987,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image35.png, id=543, 1760.5775pt x 445.665pt>
+[28]
+<./Imagenes/image35.png, id=605, 1562.83875pt x 249.93375pt>
 File: ./Imagenes/image35.png Graphic file (type png)
 <use ./Imagenes/image35.png>
 Package pdftex.def Info: ./Imagenes/image35.png  used on input line 66.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 70.52632pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--68
 
@@ -879,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--68
 
  []
 
-[33 <./Imagenes/image9.png>]
+[29 <./Imagenes/image9.png>]
 
 ./Procedimiento/ambiente.tex:69: LaTeX Error: There's no line here to end.
 
@@ -906,11 +1030,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image4.png, id=549, 1856.9375pt x 517.935pt>
+<./Imagenes/image4.png, id=611, 1667.22874pt x 329.23pt>
 File: ./Imagenes/image4.png Graphic file (type png)
 <use ./Imagenes/image4.png>
 Package pdftex.def Info: ./Imagenes/image4.png  used on input line 77.
-(pdftex.def)             Requested size: 441.01773pt x 123.00293pt.
+(pdftex.def)             Requested size: 441.01773pt x 87.08476pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 71--79
 
@@ -947,12 +1071,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34 <./Imagenes/image35.png>]
-<./Imagenes/image3.png, id=555, 1760.5775pt x 445.665pt>
+<./Imagenes/image3.png, id=612, 1564.84625pt x 250.9375pt>
 File: ./Imagenes/image3.png Graphic file (type png)
 <use ./Imagenes/image3.png>
 Package pdftex.def Info: ./Imagenes/image3.png  used on input line 90.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 70.7215pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--92
 
@@ -963,6 +1086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--92
 
  []
 
+[30 <./Imagenes/image35.png> <./Imagenes/image4.png>]
 
 ./Procedimiento/ambiente.tex:93: LaTeX Error: There's no line here to end.
 
@@ -989,11 +1113,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image6.png, id=556, 1856.9375pt x 517.935pt>
+<./Imagenes/image6.png, id=619, 1661.20625pt x 324.21124pt>
 File: ./Imagenes/image6.png Graphic file (type png)
 <use ./Imagenes/image6.png>
 Package pdftex.def Info: ./Imagenes/image6.png  used on input line 99.
-(pdftex.def)             Requested size: 441.01773pt x 123.00293pt.
+(pdftex.def)             Requested size: 441.01773pt x 86.06892pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
@@ -1004,7 +1128,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
-[35 <./Imagenes/image4.png> <./Imagenes/image3.png>]
 
 ./Procedimiento/ambiente.tex:102: LaTeX Error: There's no line here to end.
 
@@ -1031,11 +1154,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image38.png, id=563, 1760.5775pt x 445.665pt>
+[31 <./Imagenes/image3.png> <./Imagenes/image6.png>]
+<./Imagenes/image38.png, id=626, 1560.83125pt x 249.93375pt>
 File: ./Imagenes/image38.png Graphic file (type png)
 <use ./Imagenes/image38.png>
 Package pdftex.def Info: ./Imagenes/image38.png  used on input line 113.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 70.61784pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
@@ -1059,11 +1183,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image8.png, id=564, 1760.5775pt x 445.665pt>
+<./Imagenes/image8.png, id=627, 1563.8425pt x 252.945pt>
 File: ./Imagenes/image8.png Graphic file (type png)
 <use ./Imagenes/image8.png>
 Package pdftex.def Info: ./Imagenes/image8.png  used on input line 121.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 71.33359pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
@@ -1074,7 +1198,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
  []
 
-[36 <./Imagenes/image6.png> <./Imagenes/image38.png>]
 
 ./Procedimiento/ambiente.tex:124: LaTeX Error: There's no line here to end.
 
@@ -1101,11 +1224,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image2.png, id=572, 1856.9375pt x 1601.985pt>
+<./Imagenes/image2.png, id=628, 1693.32625pt x 1445.4pt>
 File: ./Imagenes/image2.png Graphic file (type png)
 <use ./Imagenes/image2.png>
 Package pdftex.def Info: ./Imagenes/image2.png  used on input line 130.
-(pdftex.def)             Requested size: 441.01773pt x 380.45094pt.
+(pdftex.def)             Requested size: 441.01773pt x 376.43474pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 126--132
 
@@ -1129,12 +1252,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[37 <./Imagenes/image8.png>] [38 <./Imagenes/image2.png>]
-<./Imagenes/image36.png, id=583, 1760.5775pt x 517.935pt>
+[32 <./Imagenes/image38.png> <./Imagenes/image8.png>] [33 <./Imagenes/image2.pn
+g>]
+<./Imagenes/image36.png, id=641, 1565.85pt x 321.2pt>
 File: ./Imagenes/image36.png Graphic file (type png)
 <use ./Imagenes/image36.png>
 Package pdftex.def Info: ./Imagenes/image36.png  used on input line 149.
-(pdftex.def)             Requested size: 441.01773pt x 129.73631pt.
+(pdftex.def)             Requested size: 441.01773pt x 90.4647pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--151
 
@@ -1171,11 +1295,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image17.png, id=584, 1856.9375pt x 554.07pt>
+<./Imagenes/image17.png, id=642, 1668.2325pt x 363.3575pt>
 File: ./Imagenes/image17.png Graphic file (type png)
 <use ./Imagenes/image17.png>
 Package pdftex.def Info: ./Imagenes/image17.png  used on input line 158.
-(pdftex.def)             Requested size: 441.01773pt x 131.58453pt.
+(pdftex.def)             Requested size: 441.01773pt x 96.05641pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
@@ -1212,15 +1336,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image1.png, id=585, 1856.9375pt x 662.475pt>
+<./Imagenes/image1.png, id=643, 1672.2475pt x 477.785pt>
 File: ./Imagenes/image1.png Graphic file (type png)
 <use ./Imagenes/image1.png>
 Package pdftex.def Info: ./Imagenes/image1.png  used on input line 167.
-(pdftex.def)             Requested size: 441.01773pt x 157.32933pt.
+(pdftex.def)             Requested size: 441.01773pt x 126.00002pt.
 
-Overfull \hbox (25.20728pt too wide) in paragraph at lines 163--169
-[]\T1/cmr/m/n/12 Y fi-nal-men-te so-lo de-be-mos agre-gar la si-guien-te con-fi
--gu-ra-ción al ar-chi-vo Web-pack.config.js
+Overfull \hbox (5.19826pt too wide) in paragraph at lines 163--169
+[]\T1/cmss/m/n/12 Y fi-nal-men-te so-lo de-be-mos agre-gar la si-guien-te con-f
+i-gu-ra-ción al ar-chi-vo Web-pack.config.js
  []
 
 
@@ -1233,7 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--169
 
  []
 
-[39 <./Imagenes/image36.png> <./Imagenes/image17.png>]
+[34 <./Imagenes/image36.png> <./Imagenes/image17.png>]
 
 ./Procedimiento/ambiente.tex:170: LaTeX Error: There's no line here to end.
 
@@ -1260,11 +1384,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image23.png, id=592, 1760.5775pt x 445.665pt>
+<./Imagenes/image23.png, id=651, 1565.85pt x 259.97125pt>
 File: ./Imagenes/image23.png Graphic file (type png)
 <use ./Imagenes/image23.png>
 Package pdftex.def Info: ./Imagenes/image23.png  used on input line 180.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 73.21986pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--182
 
@@ -1301,12 +1425,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[40 <./Imagenes/image1.png> <./Imagenes/image23.png>]
-<./Imagenes/image14.png, id=599, 1760.5775pt x 554.07pt>
+<./Imagenes/image14.png, id=652, 1565.85pt x 366.36874pt>
 File: ./Imagenes/image14.png Graphic file (type png)
 <use ./Imagenes/image14.png>
 Package pdftex.def Info: ./Imagenes/image14.png  used on input line 194.
-(pdftex.def)             Requested size: 441.01773pt x 138.78769pt.
+(pdftex.def)             Requested size: 441.01773pt x 103.1863pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 189--196
 
@@ -1317,6 +1440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--196
 
  []
 
+[35 <./Imagenes/image1.png> <./Imagenes/image23.png>]
 
 ./Procedimiento/ambiente.tex:197: LaTeX Error: There's no line here to end.
 
@@ -1343,11 +1467,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image32.png, id=600, 1760.5775pt x 445.665pt>
+<./Imagenes/image32.png, id=659, 1569.865pt x 249.93375pt>
 File: ./Imagenes/image32.png Graphic file (type png)
 <use ./Imagenes/image32.png>
 Package pdftex.def Info: ./Imagenes/image32.png  used on input line 204.
-(pdftex.def)             Requested size: 441.01773pt x 111.63358pt.
+(pdftex.def)             Requested size: 441.01773pt x 70.2136pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--206
 
@@ -1384,13 +1508,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41 <./Imagenes/image14.png>] [42 <./Imagenes/image32.png>])
-(./Procedimiento/desarrollo.tex
-<./Imagenes/carbon.png, id=612, 1760.5775pt x 409.53pt>
+[36 <./Imagenes/image14.png> <./Imagenes/image32.png>] [37])
+(./Procedimiento/ui-ux.tex [38]) (./Procedimiento/desarrollo.tex
+<./Imagenes/carbon.png, id=674, 1571.8725pt x 212.795pt>
 File: ./Imagenes/carbon.png Graphic file (type png)
 <use ./Imagenes/carbon.png>
 Package pdftex.def Info: ./Imagenes/carbon.png  used on input line 6.
-(pdftex.def)             Requested size: 441.01773pt x 102.5822pt.
+(pdftex.def)             Requested size: 441.01773pt x 59.70232pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
@@ -1427,11 +1551,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-2.png, id=613, 1760.5775pt x 662.475pt>
+<./Imagenes/carbon-2.png, id=675, 1572.87625pt x 474.77374pt>
 File: ./Imagenes/carbon-2.png Graphic file (type png)
 <use ./Imagenes/carbon-2.png>
 Package pdftex.def Info: ./Imagenes/carbon-2.png  used on input line 15.
-(pdftex.def)             Requested size: 441.01773pt x 165.94182pt.
+(pdftex.def)             Requested size: 441.01773pt x 133.11685pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--17
 
@@ -1442,6 +1566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--17
 
  []
 
+[39 <./Imagenes/carbon.png>]
 
 ./Procedimiento/desarrollo.tex:18: LaTeX Error: There's no line here to end.
 
@@ -1468,12 +1593,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43 <./Imagenes/carbon.png>] [44 <./Imagenes/carbon-2.png>]
-<./Imagenes/carbon-3.png, id=624, 1760.5775pt x 409.53pt>
+[40 <./Imagenes/carbon-2.png>]
+<./Imagenes/carbon-3.png, id=687, 1559.8275pt x 205.76875pt>
 File: ./Imagenes/carbon-3.png Graphic file (type png)
 <use ./Imagenes/carbon-3.png>
 Package pdftex.def Info: ./Imagenes/carbon-3.png  used on input line 31.
-(pdftex.def)             Requested size: 441.01773pt x 102.5822pt.
+(pdftex.def)             Requested size: 441.01773pt x 58.17686pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--33
 
@@ -1510,11 +1635,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-5.png, id=625, 1760.5775pt x 481.8pt>
+<./Imagenes/carbon-5.png, id=688, 1571.8725pt x 301.125pt>
 File: ./Imagenes/carbon-5.png Graphic file (type png)
 <use ./Imagenes/carbon-5.png>
 Package pdftex.def Info: ./Imagenes/carbon-5.png  used on input line 40.
-(pdftex.def)             Requested size: 441.01773pt x 120.68495pt.
+(pdftex.def)             Requested size: 441.01773pt x 84.48442pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
@@ -1561,9 +1686,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
-[45
+[41
 
  <./Imagenes/carbon-3.png> <./Imagenes/carbon-5.png>]
+Underfull \hbox (badness 1590) in paragraph at lines 52--52
+[]\T1/cmss/bx/n/12 Valor por de-
+ []
+
 
 ./Procedimiento/desarrollo.tex:72: LaTeX Error: There's no line here to end.
 
@@ -1603,7 +1732,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[46]
 
 ./Procedimiento/desarrollo.tex:81: LaTeX Error: There's no line here to end.
 
@@ -1617,6 +1745,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[42]
 
 ./Procedimiento/desarrollo.tex:87: LaTeX Error: There's no line here to end.
 
@@ -1630,11 +1759,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-9.png, id=637, 1760.5775pt x 1782.66pt>
+<./Imagenes/carbon-9.png, id=699, 1604.99625pt x 1627.07875pt>
 File: ./Imagenes/carbon-9.png Graphic file (type png)
 <use ./Imagenes/carbon-9.png>
 Package pdftex.def Info: ./Imagenes/carbon-9.png  used on input line 93.
-(pdftex.def)             Requested size: 441.01773pt x 446.53435pt.
+(pdftex.def)             Requested size: 441.01773pt x 447.08804pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--95
 
@@ -1671,12 +1800,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[47]
-<./Imagenes/image26.png, id=642, 1760.5775pt x 770.88pt>
+<./Imagenes/image26.png, id=700, 1564.84625pt x 570.13pt>
 File: ./Imagenes/image26.png Graphic file (type png)
 <use ./Imagenes/image26.png>
 Package pdftex.def Info: ./Imagenes/image26.png  used on input line 104.
-(pdftex.def)             Requested size: 441.01773pt x 193.09593pt.
+(pdftex.def)             Requested size: 441.01773pt x 160.67924pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--106
 
@@ -1687,7 +1815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--106
 
  []
 
-[48 <./Imagenes/carbon-9.png>]
+[43 <./Imagenes/carbon-9.png>]
 
 ./Procedimiento/desarrollo.tex:107: LaTeX Error: There's no line here to end.
 
@@ -1714,19 +1842,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[49 <./Imagenes/image26.png>]
+[44 <./Imagenes/image26.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 121--121
-[]\T1/cmr/m/n/12 Este pa-rá-me-tro in-di-ca el
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 123--123
-[]\T1/cmr/m/n/12 Indicamos el ta-ma-ño del
+Underfull \hbox (badness 1590) in paragraph at lines 119--119
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -1781,11 +1904,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-11.png, id=654, 1760.5775pt x 879.285pt>
+<./Imagenes/carbon-11.png, id=711, 1573.88pt x 688.5725pt>
 File: ./Imagenes/carbon-11.png Graphic file (type png)
 <use ./Imagenes/carbon-11.png>
 Package pdftex.def Info: ./Imagenes/carbon-11.png  used on input line 143.
-(pdftex.def)             Requested size: 441.01773pt x 220.25005pt.
+(pdftex.def)             Requested size: 441.01773pt x 192.93556pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--145
 
@@ -1796,7 +1919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--145
 
  []
 
-[50
+[45
 
 ]
 
@@ -1825,7 +1948,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[51 <./Imagenes/carbon-11.png>]
+[46 <./Imagenes/carbon-11.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--156
 
  []
@@ -1836,8 +1959,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--156
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 167--167
-\T1/cmr/m/n/12 ten por de-fec-to en html.
+Underfull \hbox (badness 1590) in paragraph at lines 159--159
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -1866,7 +1989,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[52
+[47
 
 ]
 
@@ -1895,11 +2018,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-12.png, id=668, 1760.5775pt x 1963.335pt>
+<./Imagenes/carbon-12.png, id=726, 1595.9625pt x 1795.70876pt>
 File: ./Imagenes/carbon-12.png Graphic file (type png)
 <use ./Imagenes/carbon-12.png>
 Package pdftex.def Info: ./Imagenes/carbon-12.png  used on input line 192.
-(pdftex.def)             Requested size: 441.01773pt x 491.79121pt.
+(pdftex.def)             Requested size: 441.01773pt x 496.21896pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 188--194
 
@@ -1936,7 +2059,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[53] [54 <./Imagenes/carbon-12.png>]
+[48] [49 <./Imagenes/carbon-12.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
  []
@@ -1944,6 +2067,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 208--208
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -1975,7 +2103,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (55.90308pt too wide) in paragraph at lines 206--219
+Overfull \hbox (45.94571pt too wide) in paragraph at lines 206--219
  [] 
  []
 
@@ -2031,14 +2159,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.30.png, id=679, 1457.445pt x 1999.47pt>
+<./Imagenes/8.30.png, id=736, 1293.83376pt x 1828.8325pt>
 File: ./Imagenes/8.30.png Graphic file (type png)
 <use ./Imagenes/8.30.png>
 Package pdftex.def Info: ./Imagenes/8.30.png  used on input line 233.
-(pdftex.def)             Requested size: 441.01773pt x 605.03224pt.
-[55
+(pdftex.def)             Requested size: 441.01773pt x 623.38547pt.
+[50
 
-] [56] [57 <./Imagenes/8.30.png>]
+] [51] [52 <./Imagenes/8.30.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
  []
@@ -2046,6 +2174,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 247--247
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -2077,7 +2210,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (11.59024pt too wide) in paragraph at lines 245--258
+Overfull \hbox (2.05782pt too wide) in paragraph at lines 245--258
  [] 
  []
 
@@ -2133,14 +2266,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.31.png, id=693, 1529.715pt x 1276.77pt>
+<./Imagenes/8.31.png, id=751, 1351.0475pt x 1113.15875pt>
 File: ./Imagenes/8.31.png Graphic file (type png)
 <use ./Imagenes/8.31.png>
 Package pdftex.def Info: ./Imagenes/8.31.png  used on input line 272.
-(pdftex.def)             Requested size: 441.01773pt x 368.09132pt.
-[58
+(pdftex.def)             Requested size: 441.01773pt x 363.35196pt.
+[53
 
-] [59 <./Imagenes/8.31.png>]
+] [54 <./Imagenes/8.31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 280--284
 
  []
@@ -2148,6 +2281,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--284
 
 Underfull \hbox (badness 10000) in paragraph at lines 280--284
 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 287--287
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -2202,14 +2340,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.32.png, id=703, 1529.715pt x 1312.905pt>
+<./Imagenes/8.32.png, id=761, 1353.055pt x 1149.29375pt>
 File: ./Imagenes/8.32.png Graphic file (type png)
 <use ./Imagenes/8.32.png>
 Package pdftex.def Info: ./Imagenes/8.32.png  used on input line 310.
-(pdftex.def)             Requested size: 441.01773pt x 378.509pt.
-[60
+(pdftex.def)             Requested size: 441.01773pt x 374.60333pt.
+[55
 
-] [61 <./Imagenes/8.32.png>]
+] [56 <./Imagenes/8.32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
@@ -2220,7 +2358,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--321
  []
 
 
-Overfull \hbox (37.65749pt too wide) in paragraph at lines 322--331
+Underfull \hbox (badness 1590) in paragraph at lines 324--324
+[]\T1/cmss/bx/n/12 Valor por de-
+ []
+
+
+Overfull \hbox (26.93646pt too wide) in paragraph at lines 322--331
  [] 
  []
 
@@ -2276,12 +2419,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.33.png, id=714, 895.345pt x 1096.095pt>
+<./Imagenes/8.33.png, id=772, 711.65875pt x 911.405pt>
 File: ./Imagenes/8.33.png Graphic file (type png)
 <use ./Imagenes/8.33.png>
 Package pdftex.def Info: ./Imagenes/8.33.png  used on input line 342.
-(pdftex.def)             Requested size: 220.50887pt x 269.94217pt.
-[62
+(pdftex.def)             Requested size: 220.50887pt x 282.39355pt.
+[57
 
  <./Imagenes/8.33.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 350--354
@@ -2291,6 +2434,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--354
 
 Underfull \hbox (badness 10000) in paragraph at lines 350--354
 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 357--357
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -2345,14 +2493,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.34.png, id=720, 2009.5075pt x 1132.23pt>
+<./Imagenes/8.34.png, id=778, 1829.83624pt x 951.555pt>
 File: ./Imagenes/8.34.png Graphic file (type png)
 <use ./Imagenes/8.34.png>
 Package pdftex.def Info: ./Imagenes/8.34.png  used on input line 381.
-(pdftex.def)             Requested size: 441.01773pt x 248.46942pt.
-[63
+(pdftex.def)             Requested size: 441.01773pt x 229.33615pt.
+[58
 
-] [64 <./Imagenes/8.34.png>]
+] [59 <./Imagenes/8.34.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 389--393
 
  []
@@ -2363,7 +2511,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--393
  []
 
 
-Overfull \hbox (37.65749pt too wide) in paragraph at lines 394--407
+Underfull \hbox (badness 1590) in paragraph at lines 396--396
+[]\T1/cmss/bx/n/12 Valor por de-
+ []
+
+
+Overfull \hbox (26.93646pt too wide) in paragraph at lines 394--407
  [] 
  []
 
@@ -2419,14 +2572,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.35.png, id=730, 1529.715pt x 1999.47pt>
+<./Imagenes/8.35.png, id=789, 1366.10374pt x 1843.88875pt>
 File: ./Imagenes/8.35.png Graphic file (type png)
 <use ./Imagenes/8.35.png>
 Package pdftex.def Info: ./Imagenes/8.35.png  used on input line 418.
-(pdftex.def)             Requested size: 441.01773pt x 576.44492pt.
-[65
+(pdftex.def)             Requested size: 441.01773pt x 595.26152pt.
+[60
 
-] [66 <./Imagenes/8.35.png>]
+] [61 <./Imagenes/8.35.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
  []
@@ -2434,6 +2587,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
 Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 435--435
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -2488,12 +2646,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.36.png, id=741, 1529.715pt x 662.475pt>
+<./Imagenes/8.36.png, id=799, 1341.01pt x 470.75874pt>
 File: ./Imagenes/8.36.png Graphic file (type png)
 <use ./Imagenes/8.36.png>
 Package pdftex.def Info: ./Imagenes/8.36.png  used on input line 451.
-(pdftex.def)             Requested size: 441.01773pt x 190.99078pt.
-[67
+(pdftex.def)             Requested size: 441.01773pt x 154.81212pt.
+[62
 
  <./Imagenes/8.36.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 458--462
@@ -2506,8 +2664,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--462
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 475--475
-[]\T1/cmr/m/n/12 Elemento But-ton pre-via-
+Underfull \hbox (badness 1590) in paragraph at lines 465--465
+[]\T1/cmss/bx/n/12 Valor por de-
  []
 
 
@@ -2562,14 +2720,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.37.png, id=747, 1529.715pt x 1204.5pt>
+<./Imagenes/8.37.png, id=805, 1342.01375pt x 1017.8025pt>
 File: ./Imagenes/8.37.png Graphic file (type png)
 <use ./Imagenes/8.37.png>
 Package pdftex.def Info: ./Imagenes/8.37.png  used on input line 490.
-(pdftex.def)             Requested size: 441.01773pt x 347.25597pt.
-[68
+(pdftex.def)             Requested size: 441.01773pt x 334.4626pt.
+[63
 
-] [69 <./Imagenes/8.37.png>]
+] [64 <./Imagenes/8.37.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 500--505
 
  []
@@ -2580,7 +2738,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 500--505
  []
 
 
-Overfull \hbox (42.12865pt too wide) in paragraph at lines 506--525
+Underfull \hbox (badness 1590) in paragraph at lines 508--508
+[]\T1/cmss/bx/n/12 Valor por de-
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 518--518
+[]\T1/cmss/m/n/12 Contenido pa-ra un mo-dal
+ []
+
+
+Overfull \hbox (31.70892pt too wide) in paragraph at lines 506--525
  [] 
  []
 
@@ -2610,7 +2778,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[70
+[65
 
 ]
 
@@ -2639,17 +2807,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.38.png, id=761, 2009.5075pt x 1674.255pt>
+<./Imagenes/8.38.png, id=820, 1830.84pt x 1505.625pt>
 File: ./Imagenes/8.38.png Graphic file (type png)
 <use ./Imagenes/8.38.png>
 Package pdftex.def Info: ./Imagenes/8.38.png  used on input line 541.
-(pdftex.def)             Requested size: 441.01773pt x 367.41754pt.
-[71 <./Imagenes/8.38.png>]) (./Procedimiento/test.tex
-<./Imagenes/8.39t.png, id=769, 680.5425pt x 233.87375pt>
+(pdftex.def)             Requested size: 441.01773pt x 362.6669pt.
+[66 <./Imagenes/8.38.png>]) (./Procedimiento/test.tex
+<./Imagenes/8.39t.png, id=827, 604.2575pt x 146.5475pt>
 File: ./Imagenes/8.39t.png Graphic file (type png)
 <use ./Imagenes/8.39t.png>
 Package pdftex.def Info: ./Imagenes/8.39t.png  used on input line 4.
-(pdftex.def)             Requested size: 441.01773pt x 151.55933pt.
+(pdftex.def)             Requested size: 441.01773pt x 106.95863pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--6
 
@@ -2668,11 +2836,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.40t.png, id=770, 1025.8325pt x 409.53pt>
+<./Imagenes/8.40t.png, id=828, 826.08624pt x 213.79875pt>
 File: ./Imagenes/8.40t.png Graphic file (type png)
 <use ./Imagenes/8.40t.png>
 Package pdftex.def Info: ./Imagenes/8.40t.png  used on input line 13.
-(pdftex.def)             Requested size: 441.01773pt x 176.06322pt.
+(pdftex.def)             Requested size: 441.01773pt x 114.14142pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 
@@ -2691,19 +2859,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[72
-
- <./Imagenes/8.39t.png> <./Imagenes/8.40t.png>]
-<./Imagenes/8.41t.png, id=779, 1228.59pt x 734.745pt>
+<./Imagenes/8.41t.png, id=829, 1039.885pt x 540.0175pt>
 File: ./Imagenes/8.41t.png Graphic file (type png)
 <use ./Imagenes/8.41t.png>
 Package pdftex.def Info: ./Imagenes/8.41t.png  used on input line 26.
-(pdftex.def)             Requested size: 441.01773pt x 263.74562pt.
+(pdftex.def)             Requested size: 441.01773pt x 229.02235pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
  []
 
+[67
+
+ <./Imagenes/8.39t.png> <./Imagenes/8.40t.png>]
 
 ./Procedimiento/test.tex:29: LaTeX Error: There's no line here to end.
 
@@ -2717,11 +2885,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.42t.png, id=780, 1228.59pt x 409.53pt>
+<./Imagenes/8.42t.png, id=837, 1035.87pt x 211.79124pt>
 File: ./Imagenes/8.42t.png Graphic file (type png)
 <use ./Imagenes/8.42t.png>
 Package pdftex.def Info: ./Imagenes/8.42t.png  used on input line 37.
-(pdftex.def)             Requested size: 441.01773pt x 147.00575pt.
+(pdftex.def)             Requested size: 441.01773pt x 90.17004pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
@@ -2740,38 +2908,38 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[73 <./Imagenes/8.41t.png>] [74 <./Imagenes/8.42t.png>])
+[68 <./Imagenes/8.41t.png> <./Imagenes/8.42t.png>])
 (./Procedimiento/publicacion.tex
-<./Imagenes/8.39.png, id=791, 957.5775pt x 409.53pt>
+<./Imagenes/8.39.png, id=844, 765.86125pt x 206.7725pt>
 File: ./Imagenes/8.39.png Graphic file (type png)
 <use ./Imagenes/8.39.png>
 Package pdftex.def Info: ./Imagenes/8.39.png  used on input line 9.
-(pdftex.def)             Requested size: 308.71106pt x 132.0271pt.
+(pdftex.def)             Requested size: 308.71106pt x 83.348pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--11
 
  []
 
-<./Imagenes/8.40.png, id=792, 957.5775pt x 409.53pt>
+<./Imagenes/8.40.png, id=845, 755.82375pt x 203.76125pt>
 File: ./Imagenes/8.40.png Graphic file (type png)
 <use ./Imagenes/8.40.png>
 Package pdftex.def Info: ./Imagenes/8.40.png  used on input line 19.
-(pdftex.def)             Requested size: 308.71106pt x 132.0271pt.
+(pdftex.def)             Requested size: 308.71106pt x 83.22551pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--21
 
  []
 
-[75
+[69
 
- <./Imagenes/8.39.png>] [76 <./Imagenes/8.40.png>])
+ <./Imagenes/8.39.png> <./Imagenes/8.40.png>])
 Cap\'{\i }tulo 9.
 (./Resultados/Resultados.tex
-<./Imagenes/9.1.png, id=804, 2009.5075pt x 409.53pt>
+<./Imagenes/9.1.png, id=853, 1815.78375pt x 216.81pt>
 File: ./Imagenes/9.1.png Graphic file (type png)
 <use ./Imagenes/9.1.png>
 Package pdftex.def Info: ./Imagenes/9.1.png  used on input line 9.
-(pdftex.def)             Requested size: 441.01773pt x 89.8719pt.
+(pdftex.def)             Requested size: 441.01773pt x 52.65741pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
@@ -2790,11 +2958,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.2.png, id=805, 2009.5075pt x 409.53pt>
+<./Imagenes/9.2.png, id=854, 1814.78pt x 220.825pt>
 File: ./Imagenes/9.2.png Graphic file (type png)
 <use ./Imagenes/9.2.png>
 Package pdftex.def Info: ./Imagenes/9.2.png  used on input line 17.
-(pdftex.def)             Requested size: 441.01773pt x 89.8719pt.
+(pdftex.def)             Requested size: 441.01773pt x 53.66287pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
@@ -2813,11 +2981,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[77
-
-
- <./Imagenes/9.1.png>]
-<./Imagenes/9.3.png, id=812, 284.06125pt x 462.72874pt>
+<./Imagenes/9.3.png, id=855, 284.06125pt x 462.72874pt>
 File: ./Imagenes/9.3.png Graphic file (type png)
 <use ./Imagenes/9.3.png>
 Package pdftex.def Info: ./Imagenes/9.3.png  used on input line 25.
@@ -2827,6 +2991,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
+[70
+
+
+ <./Imagenes/9.1.png> <./Imagenes/9.2.png>]
 
 ./Resultados/Resultados.tex:29: LaTeX Error: There's no line here to end.
 
@@ -2840,11 +3008,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.4.png, id=813, 2009.5075pt x 409.53pt>
+<./Imagenes/9.4.png, id=864, 1814.78pt x 217.81375pt>
 File: ./Imagenes/9.4.png Graphic file (type png)
 <use ./Imagenes/9.4.png>
 Package pdftex.def Info: ./Imagenes/9.4.png  used on input line 34.
-(pdftex.def)             Requested size: 441.01773pt x 89.8719pt.
+(pdftex.def)             Requested size: 441.01773pt x 52.9311pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--37
 
@@ -2868,12 +3036,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[78 <./Imagenes/9.2.png> <./Imagenes/9.3.png>]
-<./Imagenes/9.6.png, id=821, 2009.5075pt x 409.53pt>
+[71 <./Imagenes/9.3.png> <./Imagenes/9.4.png>]
+<./Imagenes/9.6.png, id=871, 1813.77625pt x 217.81375pt>
 File: ./Imagenes/9.6.png Graphic file (type png)
 <use ./Imagenes/9.6.png>
 Package pdftex.def Info: ./Imagenes/9.6.png  used on input line 48.
-(pdftex.def)             Requested size: 441.01773pt x 89.8719pt.
+(pdftex.def)             Requested size: 441.01773pt x 52.96101pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--51
 
@@ -2892,11 +3060,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.7.png, id=822, 2009.5075pt x 626.34pt>
+<./Imagenes/9.7.png, id=872, 1819.79875pt x 432.61626pt>
 File: ./Imagenes/9.7.png Graphic file (type png)
 <use ./Imagenes/9.7.png>
 Package pdftex.def Info: ./Imagenes/9.7.png  used on input line 57.
-(pdftex.def)             Requested size: 441.01773pt x 137.45116pt.
+(pdftex.def)             Requested size: 441.01773pt x 104.84pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--60
 
@@ -2915,7 +3083,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[79 <./Imagenes/9.4.png> <./Imagenes/9.6.png>]
 
 ./Resultados/Resultados.tex:74: LaTeX Error: There's no line here to end.
 
@@ -2929,11 +3096,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.8.png, id=829, 1419.3025pt x 1818.795pt>
+<./Imagenes/9.8.png, id=873, 1255.69125pt x 1651.16875pt>
 File: ./Imagenes/9.8.png Graphic file (type png)
 <use ./Imagenes/9.8.png>
 Package pdftex.def Info: ./Imagenes/9.8.png  used on input line 76.
-(pdftex.def)             Requested size: 441.01773pt x 565.15276pt.
+(pdftex.def)             Requested size: 441.01773pt x 579.90811pt.
+[72 <./Imagenes/9.6.png> <./Imagenes/9.7.png>]
 
 ./Resultados/Resultados.tex:80: LaTeX Error: There's no line here to end.
 
@@ -2947,7 +3115,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[80 <./Imagenes/9.7.png>] [81 <./Imagenes/9.8.png>]
+[73 <./Imagenes/9.8.png>]
 
 ./Resultados/Resultados.tex:90: LaTeX Error: There's no line here to end.
 
@@ -2961,11 +3129,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.9.png, id=840, 1419.3025pt x 554.07pt>
+<./Imagenes/9.9.png, id=885, 1218.5525pt x 356.33125pt>
 File: ./Imagenes/9.9.png Graphic file (type png)
 <use ./Imagenes/9.9.png>
 Package pdftex.def Info: ./Imagenes/9.9.png  used on input line 92.
-(pdftex.def)             Requested size: 441.01773pt x 172.16573pt.
+(pdftex.def)             Requested size: 441.01773pt x 128.96422pt.
 
 ./Resultados/Resultados.tex:96: LaTeX Error: There's no line here to end.
 
@@ -2979,7 +3147,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.10.png, id=841, 1028.84375pt x 769.87625pt>
+<./Imagenes/9.10.png, id=886, 1028.84375pt x 769.87625pt>
 File: ./Imagenes/9.10.png Graphic file (type png)
 <use ./Imagenes/9.10.png>
 Package pdftex.def Info: ./Imagenes/9.10.png  used on input line 106.
@@ -2989,7 +3157,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--109
 
  []
 
-[82 <./Imagenes/9.9.png>]
 
 ./Resultados/Resultados.tex:110: LaTeX Error: There's no line here to end.
 
@@ -3003,7 +3170,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.11.png, id=847, 1028.84375pt x 772.8875pt>
+[74 <./Imagenes/9.9.png>]
+<./Imagenes/9.11.png, id=892, 1028.84375pt x 772.8875pt>
 File: ./Imagenes/9.11.png Graphic file (type png)
 <use ./Imagenes/9.11.png>
 Package pdftex.def Info: ./Imagenes/9.11.png  used on input line 114.
@@ -3026,12 +3194,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[83 <./Imagenes/9.10.png>]
-<./Imagenes/9.11-2.png, id=853, 1001.7425pt x 481.8pt>
+[75 <./Imagenes/9.10.png>]
+<./Imagenes/9.11-2.png, id=898, 807.015pt x 286.06876pt>
 File: ./Imagenes/9.11-2.png Graphic file (type png)
 <use ./Imagenes/9.11-2.png>
 Package pdftex.def Info: ./Imagenes/9.11-2.png  used on input line 125.
-(pdftex.def)             Requested size: 308.71106pt x 148.47424pt.
+(pdftex.def)             Requested size: 308.71106pt x 109.43185pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--128
 
@@ -3050,12 +3218,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[84 <./Imagenes/9.11.png> <./Imagenes/9.11-2.png>]
-<./Imagenes/9.12.png, id=861, 1473.505pt x 987.69pt>
+[76 <./Imagenes/9.11.png> <./Imagenes/9.11-2.png>]
+<./Imagenes/9.12.png, id=906, 1283.79625pt x 792.9625pt>
 File: ./Imagenes/9.12.png Graphic file (type png)
 <use ./Imagenes/9.12.png>
 Package pdftex.def Info: ./Imagenes/9.12.png  used on input line 137.
-(pdftex.def)             Requested size: 441.01773pt x 295.60095pt.
+(pdftex.def)             Requested size: 441.01773pt x 272.39868pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--140
 
@@ -3074,7 +3242,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.13.png, id=862, 1011.78pt x 763.85374pt>
+<./Imagenes/9.13.png, id=907, 1011.78pt x 763.85374pt>
 File: ./Imagenes/9.13.png Graphic file (type png)
 <use ./Imagenes/9.13.png>
 Package pdftex.def Info: ./Imagenes/9.13.png  used on input line 146.
@@ -3097,7 +3265,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[85 <./Imagenes/9.12.png>]
+[77 <./Imagenes/9.12.png>]
 
 ./Resultados/Resultados.tex:152: LaTeX Error: There's no line here to end.
 
@@ -3111,7 +3279,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.14.png, id=868, 1017.8025pt x 771.88374pt>
+<./Imagenes/9.14.png, id=913, 1017.8025pt x 771.88374pt>
 File: ./Imagenes/9.14.png Graphic file (type png)
 <use ./Imagenes/9.14.png>
 Package pdftex.def Info: ./Imagenes/9.14.png  used on input line 154.
@@ -3129,8 +3297,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[86 <./Imagenes/9.13.png>]
-<./Imagenes/9.15.png, id=874, 1009.7725pt x 765.86125pt>
+[78 <./Imagenes/9.13.png>]
+<./Imagenes/9.15.png, id=920, 1009.7725pt x 765.86125pt>
 File: ./Imagenes/9.15.png Graphic file (type png)
 <use ./Imagenes/9.15.png>
 Package pdftex.def Info: ./Imagenes/9.15.png  used on input line 163.
@@ -3153,17 +3321,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[87 <./Imagenes/9.14.png>]) [88 <./Imagenes/9.15.png>]
+[79 <./Imagenes/9.14.png>]) [80 <./Imagenes/9.15.png>]
 Cap\'{\i }tulo 10.
-[89
+(./Conclusiones/conclusion.tex) [81
 
 ]
 Cap\'{\i }tulo 11.
-(./Bibliografia/bibliografia.tex [90
-
-]
-./Bibliografia/bibliografia.tex:3: Misplaced alignment tab character &.
-l.3 \bibitem{reactOreilly} Banks, A., &
+(./Bibliografia/bibliografia.tex
+./Bibliografia/bibliografia.tex:6: Misplaced alignment tab character &.
+l.6 \bibitem{reactOreilly} Banks, A., &
                                         Porcello, E. (2017). Learning REACT ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3173,12 +3339,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\T1/cmr/m/n/12 Coyier, C. (2013). SASS FOR WEB DE-SIG-NERS.
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/cmss/m/n/12 Coyier, C. (2013). SASS FOR WEB DE-SIG-NERS.
  []
 
-./Bibliografia/bibliografia.tex:11: Misplaced alignment tab character &.
-l.11 ...ovina Kula, R., Ouni, A., M. German, D., &
+./Bibliografia/bibliografia.tex:14: Misplaced alignment tab character &.
+l.14 ...ovina Kula, R., Ouni, A., M. German, D., &
                                                    Inoue, K. (2017, septiemb...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3188,69 +3354,71 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[]\T1/cmr/m/n/12 Gallegos, G. (2017, 20 oc-tu-bre). Pa-ra que es Web-pack? Me-d
-ium.
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\T1/cmss/m/n/12 Gallegos, G. (2017, 20 oc-tu-bre). Pa-ra que es Web-pack? Me-
+dium.
+ []
+
+[82
+
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \bibitem{}
+                Hudson, P. (2016). Hacking with REACT [Libro electrÃ³nico]. ...
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]\T1/cmss/m/n/12 Hudson, P. (2016). Hac-king with REACT [Li-bro elec-tró-ni-co
+].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-[]\T1/cmr/m/n/12 Hudson, P. (2016). Hac-king with REACT [Li-bro elec-tró-ni-co]
-.
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[]\T1/cmss/m/n/12 JAVASCRIPT. (2020, 11 agos-to). Do-cu-men-ta-ción web de MDN.
+
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[]\T1/cmr/m/n/12 JAVASCRIPT. (2020, 11 agos-to). Do-cu-men-ta-ción web de MDN.
- []
-
-[91
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.22 
-     ]pdfTeX warning (ext4): destination with the same identifier (name{cite.})
- has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 \bibitem{}
+l.26 \bibitem{}
                 K. White, S. (2020, 10 enero). The 10 most in-demand tech jo...
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\T1/cmr/m/n/12 Mobile-first in-de-xing best prac-ti-ces. (s. f.). Goo-gle De-
-ve-lo-pers.
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\T1/cmss/m/n/12 Mobile-first in-de-xing best prac-ti-ces. (s. f.). Goo-gle De
+-ve-lo-pers.
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \bibitem{}
+l.31 \bibitem{}
                 Open Source Initiative. (2006). The MIT license. 2015b.[Onli...
+
+Underfull \hbox (badness 1939) in paragraph at lines 31--32
+[]\T1/cmss/m/n/12 Open Sour-ce Initia-ti-ve. (2006). The MIT li-cen-se. 2015b.[
+Online]. Avai-la-ble:
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \bibitem{}
+l.37 \bibitem{}
                 Pozas, J. L. B. (2018, 11 enero). Las 10 profesiones de TI c...
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \bibitem{}
+l.39 \bibitem{}
                 Â¿QuÃ© es el open source? (2020). Red Hat. https://www.redha...
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[]\T1/cmr/m/n/12 ¾Qué es el open sour-ce? (2020). Red Hat.
- []
-
-[92]
-./Bibliografia/bibliografia.tex:46: You can't use `macro parameter character #'
+[83]
+./Bibliografia/bibliografia.tex:49: You can't use `macro parameter character #'
  in horizontal mode.
-l.46 ...://insights.stackoverflow.com/survey/2020#
+l.49 ...://insights.stackoverflow.com/survey/2020#
                                                   overview
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3258,37 +3426,43 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-[]\T1/cmr/m/n/12 Stack Over-flow De-ve-lo-per Sur-vey 2020. (2020). Stack Over-
-flow.
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\T1/cmss/m/n/12 Stack Over-flow De-ve-lo-per Sur-vey 2020. (2020). Stack Over
+-flow.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-\T1/cmr/m/n/12 ebook-enterprise-open-source-a-practical-introduction-teaches-en
-terprises-how-
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\T1/cmss/m/n/12 [Li-bro electrónico].https://www.linuxfoundation.org/press-rele
+ase/2018/08/free-
  []
 
-./Bibliografia/bibliografia.tex:50: Missing $ inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\T1/cmss/m/n/12 ebook-enterprise-open-source-a-practical-introduction-teaches-e
+nterprises-how-to-
+ []
+
+./Bibliografia/bibliografia.tex:53: Missing $ inserted.
 <inserted text> 
                 $
-l.50 .... https://www.w3schools.com/whatis/whatis_
+l.53 .... https://www.w3schools.com/whatis/whatis_
                                                   npm.asp
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Bibliografia/bibliografia.tex:51: Missing $ inserted.
+./Bibliografia/bibliografia.tex:54: Missing $ inserted.
 <inserted text> 
                 $
-l.51 
+l.54 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Bibliografia/bibliografia.tex:51: Missing } inserted.
+./Bibliografia/bibliografia.tex:54: Missing } inserted.
 <inserted text> 
                 }
-l.51 
+l.54 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3297,15 +3471,15 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.52563pt too wide) in paragraph at lines 50--51
-[]\T1/cmr/m/n/12 What is npm. (2020). w3schools. https://www.w3schools.com/what
-is/whatis$[]\OML/cmm/m/it/12 pm:asp[]$ 
+Overfull \hbox (5.80154pt too wide) in paragraph at lines 53--54
+[]\T1/cmss/m/n/12 What is npm. (2020). w3schools. https://www.w3schools.com/wha
+tis/whatis$[]\OML/cmm/m/it/12 pm:asp[]$ 
  []
 
-./Bibliografia/bibliografia.tex:51: Extra }, or forgotten \endgroup.
+./Bibliografia/bibliografia.tex:54: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.51 
+l.54 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3313,54 +3487,56 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [93]
+
+Underfull \hbox (badness 1874) in paragraph at lines 57--58
+[]\T1/cmss/m/n/12 Agrawal, K. (2019, May 4). Airbnb Ja-vas-cript sty-le gui-de 
+^^V Key ta-kea-ways -
+ []
+
+) [84]
 Cap\'{\i }tulo 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-[94
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+[85
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
  (./Investigacion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `Investigacion.out' has not changed.
-(rerunfilecheck)             Checksum: 2DC923F05D1C160E8516DA827F8EB5CD;2853.
+(rerunfilecheck)             Checksum: 5BCE2756D969B4271536714FDC7C2A24;2860.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 7761 strings out of 482056
- 119613 string characters out of 5937675
- 387822 words of memory out of 5000000
- 22971 multiletter control sequences out of 15000+600000
- 543583 words of font info for 47 fonts, out of 8000000 for 9000
+ 9318 strings out of 482056
+ 141635 string characters out of 5937675
+ 420396 words of memory out of 5000000
+ 24474 multiletter control sequences out of 15000+600000
+ 542337 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 34i,8n,35p,1264b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,45p,1264b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/fernandogarciacorona/Library/texlive/2020basic/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx1440.600pk> </Users/fernandogarciacorona/Library/texlive/2
-020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </Users/fernando
+four/jknappen/ec/ecsx1440.600pk> </Users/fernandogarciacorona/Library/texlive/2
+020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1200.600pk> </Users/fernando
 garciacorona/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-bx1728.600pk> </Users/fernandogarciacorona/Library/texlive/2020basic/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </Users/fernandogarciacorona/Librar
-y/texlive/2020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </Use
+sx1728.600pk> </Users/fernandogarciacorona/Library/texlive/2020basic/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </Users/fernandogarciacorona/Librar
+y/texlive/2020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </Use
 rs/fernandogarciacorona/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx2488.600pk> </Users/fernandogarciacorona/Library/texlive/2020basic
-/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </Users/fernandogarciaco
-rona/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.6
-00pk> </Users/fernandogarciacorona/Library/texlive/2020basic/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecrm2074.600pk></usr/local/texlive/2020basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020basic/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-Output written on Investigacion.pdf (95 pages, 5491045 bytes).
+appen/ec/ecsx2488.600pk></usr/local/texlive/2020basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb>
+Output written on Investigacion.pdf (94 pages, 4222119 bytes).
 PDF statistics:
- 1377 PDF objects out of 1440 (max. 8388607)
- 772 compressed objects within 8 object streams
- 220 named destinations out of 1000 (max. 500000)
- 644 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1352 PDF objects out of 1440 (max. 8388607)
+ 794 compressed objects within 8 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 664 words of extra memory for PDF output out of 10000 (max. 10000000)
 
