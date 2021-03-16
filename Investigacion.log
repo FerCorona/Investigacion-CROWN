@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  13 MAR 2021 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  15 MAR 2021 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,7 +485,7 @@ LaTeX Info: Redefining \nameref on input line 38.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<portada.pdf, id=168, 614.295pt x 794.97pt>
+<portada.pdf, id=176, 614.295pt x 794.97pt>
 File: portada.pdf Graphic file (type pdf)
 <use portada.pdf>
 Package pdftex.def Info: portada.pdf  used on input line 41.
@@ -506,7 +506,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./portada.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<portada.pdf, id=171, page=1, 614.295pt x 794.97pt>
+<portada.pdf, id=179, page=1, 614.295pt x 794.97pt>
 File: portada.pdf Graphic file (type pdf)
 <use portada.pdf, page 1>
 Package pdftex.def Info: portada.pdf , page1 used on input line 41.
@@ -683,7 +683,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [17]
-<./Imagenes/classe.png, id=529, 1142.2675pt x 1393.205pt>
+<./Imagenes/classe.png, id=549, 1142.2675pt x 1393.205pt>
 File: ./Imagenes/classe.png Graphic file (type png)
 <use ./Imagenes/classe.png>
 Package pdftex.def Info: ./Imagenes/classe.png  used on input line 29.
@@ -707,7 +707,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [18] [19 <./Imagenes/classe.png>]
-<./Imagenes/componente.png, id=540, 964.60374pt x 213.79875pt>
+<./Imagenes/componente.png, id=560, 964.60374pt x 213.79875pt>
 File: ./Imagenes/componente.png Graphic file (type png)
 <use ./Imagenes/componente.png>
 Package pdftex.def Info: ./Imagenes/componente.png  used on input line 43.
@@ -731,13 +731,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [20 <./Imagenes/componente.png>]
-<./Imagenes/image16.png, id=551, 1664.2175pt x 433.62pt>
+<./Imagenes/image16.png, id=571, 1664.2175pt x 433.62pt>
 File: ./Imagenes/image16.png Graphic file (type png)
 <use ./Imagenes/image16.png>
 Package pdftex.def Info: ./Imagenes/image16.png  used on input line 60.
 (pdftex.def)             Requested size: 441.01773pt x 114.90875pt.
  [21]
-<./Imagenes/image5.png, id=556, 1665.22125pt x 253.94875pt>
+<./Imagenes/image5.png, id=576, 1665.22125pt x 253.94875pt>
 File: ./Imagenes/image5.png Graphic file (type png)
 <use ./Imagenes/image5.png>
 Package pdftex.def Info: ./Imagenes/image5.png  used on input line 67.
@@ -781,7 +781,7 @@ or  <return>  to continue without it.
 ) [22 <./Imagenes/image16.png> <./Imagenes/image5.png>]
 Cap\'{\i }tulo 8.
 (./Procedimiento/procedimiento.tex
-<./Imagenes/carbon-8.png, id=564, 1586.92876pt x 1069.9975pt>
+<./Imagenes/carbon-8.png, id=584, 1586.92876pt x 1069.9975pt>
 File: ./Imagenes/carbon-8.png Graphic file (type png)
 <use ./Imagenes/carbon-8.png>
 Package pdftex.def Info: ./Imagenes/carbon-8.png  used on input line 4.
@@ -803,7 +803,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-6.png, id=569, 1571.8725pt x 329.23pt>
+<./Imagenes/carbon-6.png, id=589, 1571.8725pt x 329.23pt>
 File: ./Imagenes/carbon-6.png Graphic file (type png)
 <use ./Imagenes/carbon-6.png>
 Package pdftex.def Info: ./Imagenes/carbon-6.png  used on input line 19.
@@ -823,7 +823,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-7.png, id=575, 1571.8725pt x 366.36874pt>
+<./Imagenes/carbon-7.png, id=595, 1571.8725pt x 366.36874pt>
 File: ./Imagenes/carbon-7.png Graphic file (type png)
 <use ./Imagenes/carbon-7.png>
 Package pdftex.def Info: ./Imagenes/carbon-7.png  used on input line 31.
@@ -878,17 +878,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image15.png, id=582, 1667.22874pt x 288.07625pt>
+<./Imagenes/image15.png, id=602, 1667.22874pt x 288.07625pt>
 File: ./Imagenes/image15.png Graphic file (type png)
 <use ./Imagenes/image15.png>
 Package pdftex.def Info: ./Imagenes/image15.png  used on input line 7.
 (pdftex.def)             Requested size: 441.01773pt x 76.19917pt.
-<./Imagenes/image7.png, id=583, 1664.2175pt x 256.96pt>
+<./Imagenes/image7.png, id=603, 1664.2175pt x 256.96pt>
 File: ./Imagenes/image7.png Graphic file (type png)
 <use ./Imagenes/image7.png>
 Package pdftex.def Info: ./Imagenes/image7.png  used on input line 12.
 (pdftex.def)             Requested size: 441.01773pt x 68.09407pt.
-<./Imagenes/image37.png, id=584, 1568.86125pt x 252.945pt>
+<./Imagenes/image37.png, id=604, 1568.86125pt x 252.945pt>
 File: ./Imagenes/image37.png Graphic file (type png)
 <use ./Imagenes/image37.png>
 Package pdftex.def Info: ./Imagenes/image37.png  used on input line 19.
@@ -903,7 +903,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--24
 
  []
 
-<./Imagenes/image11.png, id=585, 1564.84625pt x 251.94125pt>
+<./Imagenes/image11.png, id=605, 1564.84625pt x 251.94125pt>
 File: ./Imagenes/image11.png Graphic file (type png)
 <use ./Imagenes/image11.png>
 Package pdftex.def Info: ./Imagenes/image11.png  used on input line 30.
@@ -946,7 +946,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [27 <./Imagenes/image37.png> <./Imagenes/image11.png>]
-<./Imagenes/image9.png, id=599, 1080.035pt x 1090.0725pt>
+<./Imagenes/image9.png, id=619, 1080.035pt x 1090.0725pt>
 File: ./Imagenes/image9.png Graphic file (type png)
 <use ./Imagenes/image9.png>
 Package pdftex.def Info: ./Imagenes/image9.png  used on input line 54.
@@ -988,7 +988,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [28]
-<./Imagenes/image35.png, id=605, 1562.83875pt x 249.93375pt>
+<./Imagenes/image35.png, id=625, 1562.83875pt x 249.93375pt>
 File: ./Imagenes/image35.png Graphic file (type png)
 <use ./Imagenes/image35.png>
 Package pdftex.def Info: ./Imagenes/image35.png  used on input line 66.
@@ -1030,7 +1030,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image4.png, id=611, 1667.22874pt x 329.23pt>
+<./Imagenes/image4.png, id=631, 1667.22874pt x 329.23pt>
 File: ./Imagenes/image4.png Graphic file (type png)
 <use ./Imagenes/image4.png>
 Package pdftex.def Info: ./Imagenes/image4.png  used on input line 77.
@@ -1071,7 +1071,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image3.png, id=612, 1564.84625pt x 250.9375pt>
+<./Imagenes/image3.png, id=632, 1564.84625pt x 250.9375pt>
 File: ./Imagenes/image3.png Graphic file (type png)
 <use ./Imagenes/image3.png>
 Package pdftex.def Info: ./Imagenes/image3.png  used on input line 90.
@@ -1113,7 +1113,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image6.png, id=619, 1661.20625pt x 324.21124pt>
+<./Imagenes/image6.png, id=640, 1661.20625pt x 324.21124pt>
 File: ./Imagenes/image6.png Graphic file (type png)
 <use ./Imagenes/image6.png>
 Package pdftex.def Info: ./Imagenes/image6.png  used on input line 99.
@@ -1155,7 +1155,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [31 <./Imagenes/image3.png> <./Imagenes/image6.png>]
-<./Imagenes/image38.png, id=626, 1560.83125pt x 249.93375pt>
+<./Imagenes/image38.png, id=647, 1560.83125pt x 249.93375pt>
 File: ./Imagenes/image38.png Graphic file (type png)
 <use ./Imagenes/image38.png>
 Package pdftex.def Info: ./Imagenes/image38.png  used on input line 113.
@@ -1183,7 +1183,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image8.png, id=627, 1563.8425pt x 252.945pt>
+<./Imagenes/image8.png, id=648, 1563.8425pt x 252.945pt>
 File: ./Imagenes/image8.png Graphic file (type png)
 <use ./Imagenes/image8.png>
 Package pdftex.def Info: ./Imagenes/image8.png  used on input line 121.
@@ -1224,7 +1224,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image2.png, id=628, 1693.32625pt x 1445.4pt>
+<./Imagenes/image2.png, id=649, 1693.32625pt x 1445.4pt>
 File: ./Imagenes/image2.png Graphic file (type png)
 <use ./Imagenes/image2.png>
 Package pdftex.def Info: ./Imagenes/image2.png  used on input line 130.
@@ -1254,7 +1254,7 @@ or  <return>  to continue without it.
 
 [32 <./Imagenes/image38.png> <./Imagenes/image8.png>] [33 <./Imagenes/image2.pn
 g>]
-<./Imagenes/image36.png, id=641, 1565.85pt x 321.2pt>
+<./Imagenes/image36.png, id=661, 1565.85pt x 321.2pt>
 File: ./Imagenes/image36.png Graphic file (type png)
 <use ./Imagenes/image36.png>
 Package pdftex.def Info: ./Imagenes/image36.png  used on input line 149.
@@ -1295,7 +1295,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image17.png, id=642, 1668.2325pt x 363.3575pt>
+<./Imagenes/image17.png, id=662, 1668.2325pt x 363.3575pt>
 File: ./Imagenes/image17.png Graphic file (type png)
 <use ./Imagenes/image17.png>
 Package pdftex.def Info: ./Imagenes/image17.png  used on input line 158.
@@ -1336,7 +1336,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image1.png, id=643, 1672.2475pt x 477.785pt>
+<./Imagenes/image1.png, id=663, 1672.2475pt x 477.785pt>
 File: ./Imagenes/image1.png Graphic file (type png)
 <use ./Imagenes/image1.png>
 Package pdftex.def Info: ./Imagenes/image1.png  used on input line 167.
@@ -1384,7 +1384,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image23.png, id=651, 1565.85pt x 259.97125pt>
+<./Imagenes/image23.png, id=671, 1565.85pt x 259.97125pt>
 File: ./Imagenes/image23.png Graphic file (type png)
 <use ./Imagenes/image23.png>
 Package pdftex.def Info: ./Imagenes/image23.png  used on input line 180.
@@ -1425,7 +1425,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image14.png, id=652, 1565.85pt x 366.36874pt>
+<./Imagenes/image14.png, id=672, 1565.85pt x 366.36874pt>
 File: ./Imagenes/image14.png Graphic file (type png)
 <use ./Imagenes/image14.png>
 Package pdftex.def Info: ./Imagenes/image14.png  used on input line 194.
@@ -1467,7 +1467,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image32.png, id=659, 1569.865pt x 249.93375pt>
+<./Imagenes/image32.png, id=679, 1569.865pt x 249.93375pt>
 File: ./Imagenes/image32.png Graphic file (type png)
 <use ./Imagenes/image32.png>
 Package pdftex.def Info: ./Imagenes/image32.png  used on input line 204.
@@ -1510,7 +1510,7 @@ or  <return>  to continue without it.
 
 [36 <./Imagenes/image14.png> <./Imagenes/image32.png>] [37])
 (./Procedimiento/ui-ux.tex [38]) (./Procedimiento/desarrollo.tex
-<./Imagenes/carbon.png, id=674, 1571.8725pt x 212.795pt>
+<./Imagenes/carbon.png, id=694, 1571.8725pt x 212.795pt>
 File: ./Imagenes/carbon.png Graphic file (type png)
 <use ./Imagenes/carbon.png>
 Package pdftex.def Info: ./Imagenes/carbon.png  used on input line 6.
@@ -1551,7 +1551,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-2.png, id=675, 1572.87625pt x 474.77374pt>
+<./Imagenes/carbon-2.png, id=695, 1572.87625pt x 474.77374pt>
 File: ./Imagenes/carbon-2.png Graphic file (type png)
 <use ./Imagenes/carbon-2.png>
 Package pdftex.def Info: ./Imagenes/carbon-2.png  used on input line 15.
@@ -1594,7 +1594,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [40 <./Imagenes/carbon-2.png>]
-<./Imagenes/carbon-3.png, id=687, 1559.8275pt x 205.76875pt>
+<./Imagenes/carbon-3.png, id=707, 1559.8275pt x 205.76875pt>
 File: ./Imagenes/carbon-3.png Graphic file (type png)
 <use ./Imagenes/carbon-3.png>
 Package pdftex.def Info: ./Imagenes/carbon-3.png  used on input line 31.
@@ -1635,7 +1635,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-5.png, id=688, 1571.8725pt x 301.125pt>
+<./Imagenes/carbon-5.png, id=708, 1571.8725pt x 301.125pt>
 File: ./Imagenes/carbon-5.png Graphic file (type png)
 <use ./Imagenes/carbon-5.png>
 Package pdftex.def Info: ./Imagenes/carbon-5.png  used on input line 40.
@@ -1759,7 +1759,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-9.png, id=699, 1604.99625pt x 1627.07875pt>
+<./Imagenes/carbon-9.png, id=719, 1604.99625pt x 1627.07875pt>
 File: ./Imagenes/carbon-9.png Graphic file (type png)
 <use ./Imagenes/carbon-9.png>
 Package pdftex.def Info: ./Imagenes/carbon-9.png  used on input line 93.
@@ -1800,7 +1800,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/image26.png, id=700, 1564.84625pt x 570.13pt>
+<./Imagenes/image26.png, id=720, 1564.84625pt x 570.13pt>
 File: ./Imagenes/image26.png Graphic file (type png)
 <use ./Imagenes/image26.png>
 Package pdftex.def Info: ./Imagenes/image26.png  used on input line 104.
@@ -1904,7 +1904,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-11.png, id=711, 1573.88pt x 688.5725pt>
+<./Imagenes/carbon-11.png, id=731, 1573.88pt x 688.5725pt>
 File: ./Imagenes/carbon-11.png Graphic file (type png)
 <use ./Imagenes/carbon-11.png>
 Package pdftex.def Info: ./Imagenes/carbon-11.png  used on input line 143.
@@ -2018,7 +2018,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/carbon-12.png, id=726, 1595.9625pt x 1795.70876pt>
+<./Imagenes/carbon-12.png, id=746, 1595.9625pt x 1795.70876pt>
 File: ./Imagenes/carbon-12.png Graphic file (type png)
 <use ./Imagenes/carbon-12.png>
 Package pdftex.def Info: ./Imagenes/carbon-12.png  used on input line 192.
@@ -2159,7 +2159,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.30.png, id=736, 1293.83376pt x 1828.8325pt>
+<./Imagenes/8.30.png, id=756, 1293.83376pt x 1828.8325pt>
 File: ./Imagenes/8.30.png Graphic file (type png)
 <use ./Imagenes/8.30.png>
 Package pdftex.def Info: ./Imagenes/8.30.png  used on input line 233.
@@ -2266,7 +2266,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.31.png, id=751, 1351.0475pt x 1113.15875pt>
+<./Imagenes/8.31.png, id=771, 1351.0475pt x 1113.15875pt>
 File: ./Imagenes/8.31.png Graphic file (type png)
 <use ./Imagenes/8.31.png>
 Package pdftex.def Info: ./Imagenes/8.31.png  used on input line 272.
@@ -2340,7 +2340,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.32.png, id=761, 1353.055pt x 1149.29375pt>
+<./Imagenes/8.32.png, id=782, 1353.055pt x 1149.29375pt>
 File: ./Imagenes/8.32.png Graphic file (type png)
 <use ./Imagenes/8.32.png>
 Package pdftex.def Info: ./Imagenes/8.32.png  used on input line 310.
@@ -2419,7 +2419,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.33.png, id=772, 711.65875pt x 911.405pt>
+<./Imagenes/8.33.png, id=792, 711.65875pt x 911.405pt>
 File: ./Imagenes/8.33.png Graphic file (type png)
 <use ./Imagenes/8.33.png>
 Package pdftex.def Info: ./Imagenes/8.33.png  used on input line 342.
@@ -2493,7 +2493,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.34.png, id=778, 1829.83624pt x 951.555pt>
+<./Imagenes/8.34.png, id=798, 1829.83624pt x 951.555pt>
 File: ./Imagenes/8.34.png Graphic file (type png)
 <use ./Imagenes/8.34.png>
 Package pdftex.def Info: ./Imagenes/8.34.png  used on input line 381.
@@ -2572,7 +2572,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.35.png, id=789, 1366.10374pt x 1843.88875pt>
+<./Imagenes/8.35.png, id=809, 1366.10374pt x 1843.88875pt>
 File: ./Imagenes/8.35.png Graphic file (type png)
 <use ./Imagenes/8.35.png>
 Package pdftex.def Info: ./Imagenes/8.35.png  used on input line 418.
@@ -2646,7 +2646,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.36.png, id=799, 1341.01pt x 470.75874pt>
+<./Imagenes/8.36.png, id=819, 1341.01pt x 470.75874pt>
 File: ./Imagenes/8.36.png Graphic file (type png)
 <use ./Imagenes/8.36.png>
 Package pdftex.def Info: ./Imagenes/8.36.png  used on input line 451.
@@ -2720,7 +2720,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.37.png, id=805, 1342.01375pt x 1017.8025pt>
+<./Imagenes/8.37.png, id=825, 1342.01375pt x 1017.8025pt>
 File: ./Imagenes/8.37.png Graphic file (type png)
 <use ./Imagenes/8.37.png>
 Package pdftex.def Info: ./Imagenes/8.37.png  used on input line 490.
@@ -2807,13 +2807,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.38.png, id=820, 1830.84pt x 1505.625pt>
+<./Imagenes/8.38.png, id=840, 1830.84pt x 1505.625pt>
 File: ./Imagenes/8.38.png Graphic file (type png)
 <use ./Imagenes/8.38.png>
 Package pdftex.def Info: ./Imagenes/8.38.png  used on input line 541.
 (pdftex.def)             Requested size: 441.01773pt x 362.6669pt.
 [66 <./Imagenes/8.38.png>]) (./Procedimiento/test.tex
-<./Imagenes/8.39t.png, id=827, 604.2575pt x 146.5475pt>
+<./Imagenes/8.39t.png, id=847, 604.2575pt x 146.5475pt>
 File: ./Imagenes/8.39t.png Graphic file (type png)
 <use ./Imagenes/8.39t.png>
 Package pdftex.def Info: ./Imagenes/8.39t.png  used on input line 4.
@@ -2836,7 +2836,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.40t.png, id=828, 826.08624pt x 213.79875pt>
+<./Imagenes/8.40t.png, id=848, 826.08624pt x 213.79875pt>
 File: ./Imagenes/8.40t.png Graphic file (type png)
 <use ./Imagenes/8.40t.png>
 Package pdftex.def Info: ./Imagenes/8.40t.png  used on input line 13.
@@ -2859,7 +2859,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.41t.png, id=829, 1039.885pt x 540.0175pt>
+<./Imagenes/8.41t.png, id=849, 1039.885pt x 540.0175pt>
 File: ./Imagenes/8.41t.png Graphic file (type png)
 <use ./Imagenes/8.41t.png>
 Package pdftex.def Info: ./Imagenes/8.41t.png  used on input line 26.
@@ -2885,7 +2885,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/8.42t.png, id=837, 1035.87pt x 211.79124pt>
+<./Imagenes/8.42t.png, id=857, 1035.87pt x 211.79124pt>
 File: ./Imagenes/8.42t.png Graphic file (type png)
 <use ./Imagenes/8.42t.png>
 Package pdftex.def Info: ./Imagenes/8.42t.png  used on input line 37.
@@ -2910,7 +2910,7 @@ or  <return>  to continue without it.
 
 [68 <./Imagenes/8.41t.png> <./Imagenes/8.42t.png>])
 (./Procedimiento/publicacion.tex
-<./Imagenes/8.39.png, id=844, 765.86125pt x 206.7725pt>
+<./Imagenes/8.39.png, id=864, 765.86125pt x 206.7725pt>
 File: ./Imagenes/8.39.png Graphic file (type png)
 <use ./Imagenes/8.39.png>
 Package pdftex.def Info: ./Imagenes/8.39.png  used on input line 9.
@@ -2920,7 +2920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--11
 
  []
 
-<./Imagenes/8.40.png, id=845, 755.82375pt x 203.76125pt>
+<./Imagenes/8.40.png, id=865, 755.82375pt x 203.76125pt>
 File: ./Imagenes/8.40.png Graphic file (type png)
 <use ./Imagenes/8.40.png>
 Package pdftex.def Info: ./Imagenes/8.40.png  used on input line 19.
@@ -2933,9 +2933,163 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 [69
 
  <./Imagenes/8.39.png> <./Imagenes/8.40.png>])
+(./Procedimiento/diferencia.tex
+
+./Procedimiento/diferencia.tex:9: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9  \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/array.png, id=872, 1433.355pt x 425.59pt>
+File: ./Imagenes/array.png Graphic file (type png)
+<use ./Imagenes/array.png>
+Package pdftex.def Info: ./Imagenes/array.png  used on input line 11.
+(pdftex.def)             Requested size: 441.01773pt x 130.94444pt.
+
+./Procedimiento/diferencia.tex:14: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Procedimiento/diferencia.tex:18: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18  \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/table-react.png, id=873, 1236.62pt x 1166.3575pt>
+File: ./Imagenes/table-react.png Graphic file (type png)
+<use ./Imagenes/table-react.png>
+Package pdftex.def Info: ./Imagenes/table-react.png  used on input line 20.
+(pdftex.def)             Requested size: 441.01773pt x 415.95522pt.
+
+./Procedimiento/diferencia.tex:23: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[70
+
+ <./Imagenes/array.png>]
+
+./Procedimiento/diferencia.tex:31: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31  \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/table-css.png, id=880, 1239.63126pt x 1417.295pt>
+File: ./Imagenes/table-css.png Graphic file (type png)
+<use ./Imagenes/table-css.png>
+Package pdftex.def Info: ./Imagenes/table-css.png  used on input line 33.
+(pdftex.def)             Requested size: 441.01773pt x 504.21375pt.
+
+./Procedimiento/diferencia.tex:36: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[71 <./Imagenes/table-react.png>]
+
+./Procedimiento/diferencia.tex:40: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40      \newline
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/table-res.png, id=886, 1045.9075pt x 486.81876pt>
+File: ./Imagenes/table-res.png Graphic file (type png)
+<use ./Imagenes/table-res.png>
+Package pdftex.def Info: ./Imagenes/table-res.png  used on input line 42.
+(pdftex.def)             Requested size: 441.01773pt x 205.27216pt.
+
+./Procedimiento/diferencia.tex:45: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[72 <./Imagenes/table-css.png>]
+<./Imagenes/table-crown.png, id=892, 1130.2225pt x 634.37pt>
+File: ./Imagenes/table-crown.png Graphic file (type png)
+<use ./Imagenes/table-crown.png>
+Package pdftex.def Info: ./Imagenes/table-crown.png  used on input line 50.
+(pdftex.def)             Requested size: 441.01773pt x 247.52913pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--52
+
+ []
+
+
+./Procedimiento/diferencia.tex:53: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[73 <./Imagenes/table-res.png> <./Imagenes/table-crown.png>]) [74]
 Cap\'{\i }tulo 9.
 (./Resultados/Resultados.tex
-<./Imagenes/9.1.png, id=853, 1815.78375pt x 216.81pt>
+<./Imagenes/9.1.png, id=904, 1815.78375pt x 216.81pt>
 File: ./Imagenes/9.1.png Graphic file (type png)
 <use ./Imagenes/9.1.png>
 Package pdftex.def Info: ./Imagenes/9.1.png  used on input line 9.
@@ -2958,7 +3112,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.2.png, id=854, 1814.78pt x 220.825pt>
+<./Imagenes/9.2.png, id=905, 1814.78pt x 220.825pt>
 File: ./Imagenes/9.2.png Graphic file (type png)
 <use ./Imagenes/9.2.png>
 Package pdftex.def Info: ./Imagenes/9.2.png  used on input line 17.
@@ -2981,7 +3135,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.3.png, id=855, 284.06125pt x 462.72874pt>
+<./Imagenes/9.3.png, id=906, 284.06125pt x 462.72874pt>
 File: ./Imagenes/9.3.png Graphic file (type png)
 <use ./Imagenes/9.3.png>
 Package pdftex.def Info: ./Imagenes/9.3.png  used on input line 25.
@@ -2991,8 +3145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-[70
-
+[75
 
  <./Imagenes/9.1.png> <./Imagenes/9.2.png>]
 
@@ -3008,7 +3161,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.4.png, id=864, 1814.78pt x 217.81375pt>
+<./Imagenes/9.4.png, id=915, 1814.78pt x 217.81375pt>
 File: ./Imagenes/9.4.png Graphic file (type png)
 <use ./Imagenes/9.4.png>
 Package pdftex.def Info: ./Imagenes/9.4.png  used on input line 34.
@@ -3036,8 +3189,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[71 <./Imagenes/9.3.png> <./Imagenes/9.4.png>]
-<./Imagenes/9.6.png, id=871, 1813.77625pt x 217.81375pt>
+[76 <./Imagenes/9.3.png> <./Imagenes/9.4.png>]
+<./Imagenes/9.6.png, id=923, 1813.77625pt x 217.81375pt>
 File: ./Imagenes/9.6.png Graphic file (type png)
 <use ./Imagenes/9.6.png>
 Package pdftex.def Info: ./Imagenes/9.6.png  used on input line 48.
@@ -3060,7 +3213,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.7.png, id=872, 1819.79875pt x 432.61626pt>
+<./Imagenes/9.7.png, id=924, 1819.79875pt x 432.61626pt>
 File: ./Imagenes/9.7.png Graphic file (type png)
 <use ./Imagenes/9.7.png>
 Package pdftex.def Info: ./Imagenes/9.7.png  used on input line 57.
@@ -3083,6 +3236,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[77 <./Imagenes/9.6.png> <./Imagenes/9.7.png>]
 
 ./Resultados/Resultados.tex:74: LaTeX Error: There's no line here to end.
 
@@ -3096,12 +3250,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.8.png, id=873, 1255.69125pt x 1651.16875pt>
+<./Imagenes/9.8.png, id=931, 1255.69125pt x 1651.16875pt>
 File: ./Imagenes/9.8.png Graphic file (type png)
 <use ./Imagenes/9.8.png>
 Package pdftex.def Info: ./Imagenes/9.8.png  used on input line 76.
 (pdftex.def)             Requested size: 441.01773pt x 579.90811pt.
-[72 <./Imagenes/9.6.png> <./Imagenes/9.7.png>]
 
 ./Resultados/Resultados.tex:80: LaTeX Error: There's no line here to end.
 
@@ -3115,7 +3268,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[73 <./Imagenes/9.8.png>]
+[78 <./Imagenes/9.8.png>]
 
 ./Resultados/Resultados.tex:90: LaTeX Error: There's no line here to end.
 
@@ -3129,7 +3282,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.9.png, id=885, 1218.5525pt x 356.33125pt>
+<./Imagenes/9.9.png, id=937, 1218.5525pt x 356.33125pt>
 File: ./Imagenes/9.9.png Graphic file (type png)
 <use ./Imagenes/9.9.png>
 Package pdftex.def Info: ./Imagenes/9.9.png  used on input line 92.
@@ -3147,7 +3300,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.10.png, id=886, 1028.84375pt x 769.87625pt>
+<./Imagenes/9.10.png, id=938, 1028.84375pt x 769.87625pt>
 File: ./Imagenes/9.10.png Graphic file (type png)
 <use ./Imagenes/9.10.png>
 Package pdftex.def Info: ./Imagenes/9.10.png  used on input line 106.
@@ -3170,8 +3323,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[74 <./Imagenes/9.9.png>]
-<./Imagenes/9.11.png, id=892, 1028.84375pt x 772.8875pt>
+[79 <./Imagenes/9.9.png>]
+<./Imagenes/9.11.png, id=944, 1028.84375pt x 772.8875pt>
 File: ./Imagenes/9.11.png Graphic file (type png)
 <use ./Imagenes/9.11.png>
 Package pdftex.def Info: ./Imagenes/9.11.png  used on input line 114.
@@ -3194,142 +3347,147 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[75 <./Imagenes/9.10.png>]
-<./Imagenes/9.11-2.png, id=898, 807.015pt x 286.06876pt>
+[80 <./Imagenes/9.10.png>]
+<./Imagenes/9.11-2.png, id=951, 807.015pt x 286.06876pt>
 File: ./Imagenes/9.11-2.png Graphic file (type png)
 <use ./Imagenes/9.11-2.png>
-Package pdftex.def Info: ./Imagenes/9.11-2.png  used on input line 125.
+Package pdftex.def Info: ./Imagenes/9.11-2.png  used on input line 126.
 (pdftex.def)             Requested size: 308.71106pt x 109.43185pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
 
  []
 
 
-./Resultados/Resultados.tex:129: LaTeX Error: There's no line here to end.
+./Resultados/Resultados.tex:130: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \newline
+l.130 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[76 <./Imagenes/9.11.png> <./Imagenes/9.11-2.png>]
-<./Imagenes/9.12.png, id=906, 1283.79625pt x 792.9625pt>
+[81 <./Imagenes/9.11.png>]
+<./Imagenes/9.12.png, id=958, 1283.79625pt x 792.9625pt>
 File: ./Imagenes/9.12.png Graphic file (type png)
 <use ./Imagenes/9.12.png>
-Package pdftex.def Info: ./Imagenes/9.12.png  used on input line 137.
+Package pdftex.def Info: ./Imagenes/9.12.png  used on input line 138.
 (pdftex.def)             Requested size: 441.01773pt x 272.39868pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--141
 
  []
 
 
-./Resultados/Resultados.tex:141: LaTeX Error: There's no line here to end.
+./Resultados/Resultados.tex:142: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 \newline
+l.142 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.13.png, id=907, 1011.78pt x 763.85374pt>
+<./Imagenes/9.13.png, id=959, 1011.78pt x 763.85374pt>
 File: ./Imagenes/9.13.png Graphic file (type png)
 <use ./Imagenes/9.13.png>
-Package pdftex.def Info: ./Imagenes/9.13.png  used on input line 146.
+Package pdftex.def Info: ./Imagenes/9.13.png  used on input line 147.
 (pdftex.def)             Requested size: 441.01773pt x 332.9497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
+[82 <./Imagenes/9.11-2.png> <./Imagenes/9.12.png>]
 
-./Resultados/Resultados.tex:150: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[77 <./Imagenes/9.12.png>]
-
-./Resultados/Resultados.tex:152: LaTeX Error: There's no line here to end.
+./Resultados/Resultados.tex:151: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \newline
+l.151 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./Imagenes/9.14.png, id=913, 1017.8025pt x 771.88374pt>
+
+./Resultados/Resultados.tex:153: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./Imagenes/9.14.png, id=967, 1017.8025pt x 771.88374pt>
 File: ./Imagenes/9.14.png Graphic file (type png)
 <use ./Imagenes/9.14.png>
-Package pdftex.def Info: ./Imagenes/9.14.png  used on input line 154.
+Package pdftex.def Info: ./Imagenes/9.14.png  used on input line 155.
 (pdftex.def)             Requested size: 441.01773pt x 334.45935pt.
 
-./Resultados/Resultados.tex:158: LaTeX Error: There's no line here to end.
+./Resultados/Resultados.tex:159: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \newline
+l.159 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[78 <./Imagenes/9.13.png>]
-<./Imagenes/9.15.png, id=920, 1009.7725pt x 765.86125pt>
+[83 <./Imagenes/9.13.png>]
+<./Imagenes/9.15.png, id=973, 1009.7725pt x 765.86125pt>
 File: ./Imagenes/9.15.png Graphic file (type png)
 <use ./Imagenes/9.15.png>
-Package pdftex.def Info: ./Imagenes/9.15.png  used on input line 163.
+Package pdftex.def Info: ./Imagenes/9.15.png  used on input line 164.
 (pdftex.def)             Requested size: 441.01773pt x 334.49084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--166
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
 
  []
 
 
-./Resultados/Resultados.tex:167: LaTeX Error: There's no line here to end.
+./Resultados/Resultados.tex:168: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \newline
+l.168 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[79 <./Imagenes/9.14.png>]) [80 <./Imagenes/9.15.png>]
+[84 <./Imagenes/9.14.png>] [85 <./Imagenes/9.15.png>]) [86]
 Cap\'{\i }tulo 10.
-(./Conclusiones/conclusion.tex) [81
+(./Conclusiones/conclusion.tex) [87
 
 ]
 Cap\'{\i }tulo 11.
 (./Bibliografia/bibliografia.tex
-./Bibliografia/bibliografia.tex:6: Misplaced alignment tab character &.
-l.6 \bibitem{reactOreilly} Banks, A., &
+Underfull \hbox (badness 1264) in paragraph at lines 6--7
+\T1/cmss/m/n/12 - Do-con. Me-dium. https://medium.com/docon/airbnb-javascript-s
+tyle-guide-key-
+ []
+
+./Bibliografia/bibliografia.tex:8: Misplaced alignment tab character &.
+l.8 \bibitem{reactOreilly} Banks, A., &
                                         Porcello, E. (2017). Learning REACT ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3339,12 +3497,18 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 []\T1/cmss/m/n/12 Coyier, C. (2013). SASS FOR WEB DE-SIG-NERS.
  []
 
-./Bibliografia/bibliografia.tex:14: Misplaced alignment tab character &.
-l.14 ...ovina Kula, R., Ouni, A., M. German, D., &
+
+Underfull \hbox (badness 3579) in paragraph at lines 12--13
+[]\T1/cmss/m/n/12 Cruz, R. (2019, No-vem-ber 1). Using Axios For HTTP Re-quests
+ - Ra-
+ []
+
+./Bibliografia/bibliografia.tex:18: Misplaced alignment tab character &.
+l.18 ...ovina Kula, R., Ouni, A., M. German, D., &
                                                    Inoue, K. (2017, septiemb...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3353,72 +3517,66 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+[88
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 []\T1/cmss/m/n/12 Gallegos, G. (2017, 20 oc-tu-bre). Pa-ra que es Web-pack? Me-
 dium.
  []
 
-[82
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 \bibitem{}
-                Hudson, P. (2016). Hacking with REACT [Libro electrÃ³nico]. ...
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 []\T1/cmss/m/n/12 Hudson, P. (2016). Hac-king with REACT [Li-bro elec-tró-ni-co
 ].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\T1/cmss/m/n/12 JAVASCRIPT. (2020, 11 agos-to). Do-cu-men-ta-ción web de MDN.
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.26 \bibitem{}
-                K. White, S. (2020, 10 enero). The 10 most in-demand tech jo...
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 []\T1/cmss/m/n/12 Mobile-first in-de-xing best prac-ti-ces. (s. f.). Goo-gle De
 -ve-lo-pers.
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 \bibitem{}
-                Open Source Initiative. (2006). The MIT license. 2015b.[Onli...
 
-Underfull \hbox (badness 1939) in paragraph at lines 31--32
+Underfull \hbox (badness 1939) in paragraph at lines 35--36
 []\T1/cmss/m/n/12 Open Sour-ce Initia-ti-ve. (2006). The MIT li-cen-se. 2015b.[
 Online]. Avai-la-ble:
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 \bibitem{}
-                Pozas, J. L. B. (2018, 11 enero). Las 10 profesiones de TI c...
-pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.39 \bibitem{}
-                Â¿QuÃ© es el open source? (2020). Red Hat. https://www.redha...
-[83]
-./Bibliografia/bibliografia.tex:49: You can't use `macro parameter character #'
+[89pdfTeX warning (ext4): destination with the same identifier (name{cite.}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 
+     ]
+./Bibliografia/bibliografia.tex:53: You can't use `macro parameter character #'
  in horizontal mode.
-l.49 ...://insights.stackoverflow.com/survey/2020#
+l.53 ...://insights.stackoverflow.com/survey/2020#
                                                   overview
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3426,43 +3584,43 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 []\T1/cmss/m/n/12 Stack Over-flow De-ve-lo-per Sur-vey 2020. (2020). Stack Over
 -flow.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \T1/cmss/m/n/12 [Li-bro electrónico].https://www.linuxfoundation.org/press-rele
 ase/2018/08/free-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \T1/cmss/m/n/12 ebook-enterprise-open-source-a-practical-introduction-teaches-e
 nterprises-how-to-
  []
 
-./Bibliografia/bibliografia.tex:53: Missing $ inserted.
+./Bibliografia/bibliografia.tex:57: Missing $ inserted.
 <inserted text> 
                 $
-l.53 .... https://www.w3schools.com/whatis/whatis_
+l.57 .... https://www.w3schools.com/whatis/whatis_
                                                   npm.asp
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Bibliografia/bibliografia.tex:54: Missing $ inserted.
+./Bibliografia/bibliografia.tex:58: Missing $ inserted.
 <inserted text> 
                 $
-l.54 
+l.58 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Bibliografia/bibliografia.tex:54: Missing } inserted.
+./Bibliografia/bibliografia.tex:58: Missing } inserted.
 <inserted text> 
                 }
-l.54 
+l.58 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3471,15 +3629,15 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (5.80154pt too wide) in paragraph at lines 53--54
+Overfull \hbox (5.80154pt too wide) in paragraph at lines 57--58
 []\T1/cmss/m/n/12 What is npm. (2020). w3schools. https://www.w3schools.com/wha
 tis/whatis$[]\OML/cmm/m/it/12 pm:asp[]$ 
  []
 
-./Bibliografia/bibliografia.tex:54: Extra }, or forgotten \endgroup.
+./Bibliografia/bibliografia.tex:58: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.54 
+l.58 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3487,38 +3645,38 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+) [90pdfTeX warning (ext4): destination with the same identifier (name{cite.}) 
+has been already used, duplicate ignored
 
-Underfull \hbox (badness 1874) in paragraph at lines 57--58
-[]\T1/cmss/m/n/12 Agrawal, K. (2019, May 4). Airbnb Ja-vas-cript sty-le gui-de 
-^^V Key ta-kea-ways -
- []
-
-) [84]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 		\chapter
+                 {Anexos}]
 Cap\'{\i }tulo 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-[85
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+[91
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./Investigacion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `Investigacion.out' has not changed.
-(rerunfilecheck)             Checksum: 5BCE2756D969B4271536714FDC7C2A24;2860.
+(rerunfilecheck)             Checksum: 834E370A2CA6A56F519365E2239A0F97;3049.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 9318 strings out of 482056
- 141635 string characters out of 5937675
- 420396 words of memory out of 5000000
- 24474 multiletter control sequences out of 15000+600000
+ 9368 strings out of 482056
+ 142652 string characters out of 5937675
+ 420423 words of memory out of 5000000
+ 24503 multiletter control sequences out of 15000+600000
  542337 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  40i,18n,45p,1264b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3533,10 +3691,10 @@ rs/fernandogarciacorona/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecsx2488.600pk></usr/local/texlive/2020basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmmi8.pfb>
-Output written on Investigacion.pdf (94 pages, 4222119 bytes).
+Output written on Investigacion.pdf (100 pages, 4525111 bytes).
 PDF statistics:
- 1352 PDF objects out of 1440 (max. 8388607)
- 794 compressed objects within 8 object streams
- 225 named destinations out of 1000 (max. 500000)
- 664 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1419 PDF objects out of 1440 (max. 8388607)
+ 837 compressed objects within 9 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 705 words of extra memory for PDF output out of 10000 (max. 10000000)
 
