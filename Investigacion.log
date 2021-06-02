@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  2 JUN 2021 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.30)  2 JUN 2021 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,12 +569,25 @@ Cap\'{\i }tulo 1.
 Cap\'{\i }tulo 2.
 (./Justificacion/justificacion.tex [3
 
-] [4] [5] [6] [7])
+]
+./Justificacion/justificacion.tex:12: Misplaced alignment tab character &.
+l.12 ...e React  \cite{reactOreilly} (Banks, A., &
+                                                   Porcello, E. 2017) es que...
+
+? ret
+OK, entering \nonstopmode...
+[4] [5] [6] [7])
 Cap\'{\i }tulo 3.
 (./Objetivos/objetivosGenerales.tex) (./Objetivos/objetivosEspecificos.tex
 [8
 
-] [9])
+]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+6.
+ (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+[9])
 Cap\'{\i }tulo 4.
 (./CaracterizacionAreas/CaracterizacionAreas.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 1--69
@@ -612,8 +625,10 @@ Type  H <return>  for immediate help.
                                                   
 l.18  \newline
               
-? ret
-OK, entering \nonstopmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
@@ -676,13 +691,7 @@ or  <return>  to continue without it.
 Cap\'{\i }tulo 7.
 (./MarcoTeorico/marcoTeorico.tex [16
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-16.
-
-(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [17]
+] [17]
 <./Imagenes/classe.png, id=549, 1142.2675pt x 1393.205pt>
 File: ./Imagenes/classe.png Graphic file (type png)
 <use ./Imagenes/classe.png>
@@ -3658,37 +3667,30 @@ has been already used, duplicate ignored
 l.110 		\chapter
                  {Anexos}]
 Cap\'{\i }tulo 12.
-No file Investigacion.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 [91
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./Investigacion.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package rerunfilecheck Info: File `Investigacion.out' has not changed.
+(rerunfilecheck)             Checksum: E770E52A8FEB5B4DF192C0A852C9407A;3047.
 
-
-Package rerunfilecheck Warning: File `Investigacion.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Investigacion.out':
-(rerunfilecheck)             Before: 834E370A2CA6A56F519365E2239A0F97;3049
-(rerunfilecheck)             After:  E770E52A8FEB5B4DF192C0A852C9407A;3047.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 9370 strings out of 482056
- 142673 string characters out of 5937675
- 420423 words of memory out of 5000000
- 24504 multiletter control sequences out of 15000+600000
+ 9368 strings out of 482056
+ 142652 string characters out of 5937675
+ 419423 words of memory out of 5000000
+ 24503 multiletter control sequences out of 15000+600000
  542337 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  40i,18n,45p,1264b,663s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3703,7 +3705,7 @@ rs/fernandogarciacorona/Library/texlive/2020basic/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecsx2488.600pk></usr/local/texlive/2020basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmmi8.pfb>
-Output written on Investigacion.pdf (100 pages, 4525482 bytes).
+Output written on Investigacion.pdf (100 pages, 4526254 bytes).
 PDF statistics:
  1419 PDF objects out of 1440 (max. 8388607)
  837 compressed objects within 9 object streams
