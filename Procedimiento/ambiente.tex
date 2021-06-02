@@ -1,6 +1,6 @@
     \subsection{Ambiente De Desarrollo}
-    Durante el desarrollo de la presente librería se usó el sistema operativo MacOS, con la terminal que se incorpora por defecto en el mismo.
-    El primer paso que se debe realizarse es colocarse en el directorio en el que se desea trabajar, esta librería se sitúa en la carpeta Documentos durante el desarrollo, usando el comando de la Figura 8.4 es posible cambiar de directorio, ejecutandolo en la terminal.
+    Durante el desarrollo de la presente biblioteca se usó el sistema operativo MacOS, con la terminal que se incorpora por defecto en el mismo.
+    El primer paso que se debe realizarse es colocarse en el directorio en el que se desea trabajar, esta biblioteca se sitúa en la carpeta Documentos durante el desarrollo, usando el comando de la Figura 8.4 es posible cambiar de directorio, ejecutandolo en la terminal.
     
     \newline
      \begin{figure}[H]
@@ -36,10 +36,10 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     Al introducir el comando anterior este preguntara por una lista de datos necesarios, para tener el control de los paquetes, estos son los siguientes datos que se deben proporcionar:
     \begin{itemize}
     \item \textbf{Nombre del paquete:} Este es el nombre simbólico con el cual se puede identificar el paquete dentro del buscador de NPM, por lo tanto, es el nombre con el que nuestro paquete será encontrado.
-    \item \textbf{Versión del paquete:}Con esta opción controlaremos la versión, y en caso de que se agreguen funcionalidades o se resuelva algún error, tendremos una manera de actualizar en los proyectos que incorporen esta librería.
-    \item \textbf{Descripción del paquete: }Daremos a las personas una muy breve explicación acerca del uso que puedes obtener con nuestra librería.
-    \item \textbf{Punto de entrada del paquete:} Es el directorio el cual será importado cuando agreguemos nuestra librería a otros proyectos, este podrá incluir la lógica o que solamente sea el nodo inicial de todo nuestro código.
-    \item \textbf{Comando de prueba:} Dentro de este archivo nos permite incluir comandos que afectan a nuestra librería, en este caso, este comando nos sirve para ejecutar una serie de pruebas, para usar antes de publicar una nueva versión.
+    \item \textbf{Versión del paquete:}Con esta opción controlaremos la versión, y en caso de que se agreguen funcionalidades o se resuelva algún error, tendremos una manera de actualizar en los proyectos que incorporen esta biblioteca.
+    \item \textbf{Descripción del paquete: }Daremos a las personas una muy breve explicación acerca del uso que puedes obtener con nuestra biblioteca.
+    \item \textbf{Punto de entrada del paquete:} Es el directorio el cual será importado cuando agreguemos nuestra biblioteca a otros proyectos, este podrá incluir la lógica o que solamente sea el nodo inicial de todo nuestro código.
+    \item \textbf{Comando de prueba:} Dentro de este archivo nos permite incluir comandos que afectan a nuestra biblioteca, en este caso, este comando nos sirve para ejecutar una serie de pruebas, para usar antes de publicar una nueva versión.
     \item \textbf{Repositorio de GIT del paquete:} Dentro de esta línea, debemos poner la dirección url en el cual está alojado nuestro proyecto. Este será agregado más adelante junto con el archivo de configuración de GIT.
     \item \textbf{Palabras clave del paquete:} Es una lista de palabras la cual nos ayuda para el momento cuando se inserta una búsqueda en el gestor de NPM, y pueda realizar una búsqueda basada en las palabras que describen la utilidad de nuestro paquete.
     \item \textbf{Autor del paquete:} Es el nombre del autor, autores u organización la cual está desarrollando el proyecto.
@@ -81,7 +81,7 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     \newline
     
     \subsection{Configuración Web-pack}
-    Webpack es una tecnología utilizada en gran cantidad de proyectos de Front-end. Es útil cuando se trabaja en base a una estructura modular, en este caso modula nuestra librería para poder ser agregada en otros proyectos. Nos permite que el resultado final de nuestro proyecto sea menos pesado, esto es logrado por que concatena el código eliminando espacios no necesarios para el intérprete del navegador, lo que deja un archivo con código que no es del todo entendible para las personas pero que es muchos bits menos pesado para el navegador.
+    Webpack es una tecnología utilizada en gran cantidad de proyectos de Front-end. Es útil cuando se trabaja en base a una estructura modular, en este caso modula nuestra biblioteca para poder ser agregada en otros proyectos. Nos permite que el resultado final de nuestro proyecto sea menos pesado, esto es logrado por que concatena el código eliminando espacios no necesarios para el intérprete del navegador, lo que deja un archivo con código que no es del todo entendible para las personas pero que es muchos bits menos pesado para el navegador.
     También nos permite agregar cargadores para que pueda soportar SCSS, HTML JSX imágenes y otros archivos más.
     Para hacerlo funcionar debemos ejecutar una serie de comandos, que se enlistan a continuación, con ayuda de NPM.
     \newline
@@ -135,7 +135,7 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     Lo que es definido en la configuración es:
     \begin{itemize}
     \item \textbf{Entry: } Es el archivo inicial sobre el cual empezará el análisis del código si este tiene un import de otro archivo continuará sobre ese, esto generará un árbol. El directorio /src/index.js fue el dado para este caso.
-    \item \textbf{Output: } Es el archivo en el que quedará la salida de nuestra librería en la dirección /dist/index.js
+    \item \textbf{Output: } Es el archivo en el que quedará la salida de nuestra biblioteca en la dirección /dist/index.js
     \item \textbf{Rules: }Está incluido dentro de los módulos, esto agrega la manera en cómo se procesarán los archivos SCSS y CSS  con las dependencias style-loader, css-loader, sass-loader y por otra parte las imágenes con url-loader.
     \end{itemize}
     
@@ -173,7 +173,7 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     
     
     \subsection{Agregar React Al Proyecto}
-    React es una parte fundamental en el desarrollo de la presente librería y para agregarlo es necesario ejecutar el siguiente comando.
+    React es una parte fundamental en el desarrollo de la presente biblioteca y para agregarlo es necesario ejecutar el siguiente comando.
     \newline
     \newline
      \begin{figure}[H]
@@ -182,11 +182,11 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     \end{figure}
     \newline
     \newline
-    Para este comando no se agrega la bandera “–save-dev” al final, por que de esta manera forzamos a que cuando se instale esta librería también se instale React en caso de que no estuviera, ya que nuestra librería necesita React para su ejecución.
+    Para este comando no se agrega la bandera “–save-dev” al final, por que de esta manera forzamos a que cuando se instale esta biblioteca también se instale React en caso de que no estuviera, ya que nuestra biblioteca necesita React para su ejecución.
     
     
     \subsection{Configuración ESLint }
-    Finalmente, para que nuestro espacio de desarrollo quede listo agregaremos ESLint que es un verificador de sintaxis, para tener un código limpio, con una clara indentación. Para que en toda la librería tengamos un código unificado. De igual manera no tendremos que preocuparnos por esto si no que al guardar el archivo obtenga el formato correcto.
+    Finalmente, para que nuestro espacio de desarrollo quede listo agregaremos ESLint que es un verificador de sintaxis, para tener un código limpio, con una clara indentación. Para que en toda la biblioteca tengamos un código unificado. De igual manera no tendremos que preocuparnos por esto si no que al guardar el archivo obtenga el formato correcto.
     Para esto debemos ejecutar las siguientes dependencias en la terminal.
     \newline
     \newline
@@ -210,11 +210,11 @@ Después se creó la carpeta de desarrollo son el siguente comando. Se llamó de
     \begin{itemize}
     \item \textbf{Uso de ESLint:  }Seleccionaremos el uso que le daremos a ESLint, que en este caso es checar sintaxis, encontrar problemas y forzar el estilo del código.
     \item \textbf{Tipo de módulos que usa el proyecto:} Seleccionaremos la opción JavaScript modules, por que es el tipo de importaciones y exportaciones que estaremos usando.
-    \item \textbf{Framework por usar: }Seleccionaremos React.
+    \item \textbf{Marco de trabajo por usar: }Seleccionaremos React.
     \item ¿Se usará TYPESCRIPT?: Se selecciona no. 
     \item ¿Donde se ejecutará?: Debemos seleccionar navegador.
     \item \textbf{Guía de estilos que se usará en el proyecto: } Nosotros elegiremos usar una guía popular  y después escogemos Airbnb.
     \item Formato del archivo de salida: Nosotros debemos escoger JavaScript.
     \end{itemize}
-    Con esto tenemos todo listo para comenzar con el desarrollo de nuestra librería.
+    Con esto tenemos todo listo para comenzar con el desarrollo de nuestra biblioteca.
     \newpage

@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Impresión de texto con React}}{22}{figure.7.3}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Impresión de texto una vez el código es convertido}}{22}{figure.7.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Resultado esperado de la librería}}{24}{figure.8.1}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Resultado esperado de la biblioteca}}{24}{figure.8.1}%
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Resultado de la llamada}}{25}{figure.8.2}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Actualización del estado}}{25}{figure.8.3}%
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Moverse entre directorios}}{26}{figure.8.4}%
@@ -64,8 +64,8 @@
 \contentsline {figure}{\numberline {9.1}{\ignorespaces Instalar Create React App}}{75}{figure.9.1}%
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Crear una nueva app}}{75}{figure.9.2}%
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Directorios al crear una nueva app}}{76}{figure.9.3}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Instalando nuestra librería}}{76}{figure.9.4}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Implementación la librería}}{77}{figure.9.5}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Instalando nuestra biblioteca}}{76}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Implementación la biblioteca}}{77}{figure.9.5}%
 \contentsline {figure}{\numberline {9.6}{\ignorespaces Agregar campos al estado de React}}{77}{figure.9.6}%
 \contentsline {figure}{\numberline {9.7}{\ignorespaces Código para maquetar}}{78}{figure.9.7}%
 \contentsline {figure}{\numberline {9.8}{\ignorespaces Función para actualizar el estado de React}}{79}{figure.9.8}%

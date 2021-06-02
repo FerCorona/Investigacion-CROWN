@@ -1,7 +1,7 @@
-Con el desarrollo de la librería ya es posible hacer la implementación de un proyecto el cual ya usa React.
-A continuación se ejemplifica el uso de la librería paso a paso.
+Con el desarrollo de la biblioteca ya es posible hacer la implementación de un proyecto el cual ya usa React.
+A continuación se ejemplifica el uso de la biblioteca paso a paso.
 
-Existe una herramienta que nos permite crear el esqueleto de una Web basada en React. \cite{CRA} esta es desarrollada y mantenida por Facebook, de la cual partiremos para crear una Web en la que probaremos la librería.
+Existe una herramienta que nos permite crear el esqueleto de una Web basada en React. \cite{CRA} esta es desarrollada y mantenida por Facebook, de la cual partiremos para crear una Web en la que probaremos la biblioteca.
 
 Instalaremos la herramienta llamada Create React App con el siguiente comando.
 \newline
@@ -28,18 +28,18 @@ El comando nos generará los siguientes directorios.
     \end{figure}
 \newline
 
-Para poder probar nuestra librería debemos a indicar a la app ejemplo-1 que use la dependencia instalándola con el siguiente comando.\newline
+Para poder probar nuestra biblioteca debemos a indicar a la app ejemplo-1 que use la dependencia instalándola con el siguiente comando.\newline
 \newline
 \begin{figure}[H]
     \includegraphics[width=1\textwidth]{./Imagenes/9.4}
    \centering 
-    \caption[Instalando nuestra librería]{Instalando nuestra librería}
+    \caption[Instalando nuestra biblioteca]{Instalando nuestra biblioteca}
     \end{figure}
 \newline
 
 Ahora basta incluirlo como se agrega cualquier dependencia de node, basta con agregar cualquiera de los elementos aquí desarrollados. 
 
-Crearemos dos ejemplos simples para mostrar el funcionamiento de la librería desde el lado Front-end, cabe aclarar que no se tratará el tema de cómo procesar los datos hacia el Back-end.
+Crearemos dos ejemplos simples para mostrar el funcionamiento de la biblioteca desde el lado Front-end, cabe aclarar que no se tratará el tema de cómo procesar los datos hacia el Back-end.
 El primero consta de un formulario el cual solicita nombre, correo electronico y contraseña, esto con el objetivo de registrar un usuario para que tenga un correo institucional, también se le solicitará si la cuenta estará activa al momento de crearla.
 
 Para esto debemos importar nuestros componentes de la siguiente manera.
@@ -47,7 +47,7 @@ Para esto debemos importar nuestros componentes de la siguiente manera.
 \begin{figure}[H]
     \includegraphics[width=1\textwidth]{./Imagenes/9.6}
    \centering 
-    \caption[Implementación la librería]{Implementación la librería}
+    \caption[Implementación la biblioteca]{Implementación la biblioteca}
     \end{figure}
 \newline
 
@@ -95,12 +95,12 @@ El último parámetro onChange es una función simple como la que se muestra a c
     \end{figure}
 \newline
 
-Esta función es única para cualquiera de los componentes de la librería, ya que están diseñados para que cuando se actualicen, regresen el nombre por el cual están identificados en el estado de React para saber que dato actualizar  y el nuevo valor.
+Esta función es única para cualquiera de los componentes de la biblioteca, ya que están diseñados para que cuando se actualicen, regresen el nombre por el cual están identificados en el estado de React para saber que dato actualizar  y el nuevo valor.
 Finalmente se tiene el componente Button y Table. El componente Button tiene un parámetro, onClick el cual envía una función que se ejecutará cuando se haga click. Esta función actualiza el parámetro del estado llamado users que almacena de manera no persistente los usuarios que se vayan agregando.
 El componente Tabla recibe un arreglo para la cabecera y un arreglo de arreglos para el cuerpo de la tabla.
 
 
-A continuación se muestra el resultado que se tendría con unas escasas líneas de código usando la librería.
+A continuación se muestra el resultado que se tendría con unas escasas líneas de código usando la biblioteca.
 \newline
 \begin{figure}[H]
     \includegraphics[width=1\textwidth]{./Imagenes/9.10}
@@ -116,7 +116,7 @@ También se tiene el resultado después de agregar algunos usuarios.
     \caption[Resultado final al agregar usuarios]{Resultado final al agregar usuarios}
     \end{figure}
 \newline
-Los datos que se agregaron en la tabla, solo están almacenados en la memoria volátil del navegador, ya que esta librería no cubre el hacer la petición HTTP. Pero la librería es capaz de usarse con cualquier otra librería que se encargue de hacer las peticiones por ejemplo AXIOS \cite{axios}.
+Los datos que se agregaron en la tabla, solo están almacenados en la memoria volátil del navegador, ya que esta biblioteca no cubre el hacer la petición HTTP. Pero la biblioteca es capaz de usarse con cualquier otra biblioteca que se encargue de hacer las peticiones por ejemplo AXIOS \cite{axios}.
 
 En seguida se muestra otro ejemplo que figura un restaurante en el cual se muestran los platillos que se venden, con la posibilidad de filtrarlos si son bebidas o tragos.
 
@@ -167,24 +167,24 @@ También se cuenta con el elemento Modal que puede ser usado como confirmación 
     \end{figure}
 \newline
 
-Los datos para mostrar los diferentes platillos no son obtenidos desde una petición HTTP, estos son tomados desde un array que existe sólo mientras la aplicación está en ejecución, ya que la librería funciona para el Front-end.  Se puede implementar cualquier tecnología para hacer peticiones y obtener datos.
+Los datos para mostrar los diferentes platillos no son obtenidos desde una petición HTTP, estos son tomados desde un array que existe sólo mientras la aplicación está en ejecución, ya que la biblioteca funciona para el Front-end.  Se puede implementar cualquier tecnología para hacer peticiones y obtener datos.
 
 \section{Comparación contra Material Design}
 
   \begin{itemize}
-   \item \textbf{ Número de componentes:} La librería Material Design ya tiene algún tiempo de desarrollo, razón por la cual ya cuenta con gran cantidad de componentes, puedes encontrar múltiples opciones para cualquier necesidad, en contraste la librería que aquí se desarrolla tiene un número limitado de componentes, que se considera que son los básicos usados en cualquier componente.
-   \item \textbf{ Facilidad de uso:} Como ya se mencionó, Material Design tiene variedad de componentes, pero también gran cantidad de opciones que se pueden modificar, lo cual presenta una desventaja ya que si un nuevo desarrollador comienza a utilizar Material Design tendrá una mayor curva de aprendizaje, con respecto a nuestra librería.
+   \item \textbf{ Número de componentes:} La biblioteca Material Design ya tiene algún tiempo de desarrollo, razón por la cual ya cuenta con gran cantidad de componentes, puedes encontrar múltiples opciones para cualquier necesidad, en contraste la biblioteca que aquí se desarrolla tiene un número limitado de componentes, que se considera que son los básicos usados en cualquier componente.
+   \item \textbf{ Facilidad de uso:} Como ya se mencionó, Material Design tiene variedad de componentes, pero también gran cantidad de opciones que se pueden modificar, lo cual presenta una desventaja ya que si un nuevo desarrollador comienza a utilizar Material Design tendrá una mayor curva de aprendizaje, con respecto a nuestra biblioteca.
    \item \textbf{ Documentación:} Por el tiempo que tiene Material Design, ya tiene una gran cantidad de personas que lo saben usar, y foros en en los que se habla sobre funcionamiento y dan consejos para un mejor uso.
-   \item \textbf{ Híbrido:} Material Design está diseñado para ser una librería Front-end, pero nuestra librería va más allá, la librería que aquí se desarrolla para trabajar cien por ciento de la mano con el estado de react. 
-   \item \textbf{ Peso:} Para comprobar el peso que requiere la librería, se crean dos proyectos básicos de React \cite{CRA}  llamados pryectoCrown y proyectoMaterial, para el primero se instalará la librería aquí desarrollada y en el segundo se instalará Material Design.
+   \item \textbf{ Híbrido:} Material Design está diseñado para ser una biblioteca Front-end, pero nuestra biblioteca va más allá, la biblioteca que aquí se desarrolla para trabajar cien por ciento de la mano con el estado de react. 
+   \item \textbf{ Peso:} Para comprobar el peso que requiere la biblioteca, se crean dos proyectos básicos de React \cite{CRA}  llamados pryectoCrown y proyectoMaterial, para el primero se instalará la biblioteca aquí desarrollada y en el segundo se instalará Material Design.
 Al momento de crear las carpetas cada una tiene un peso de 241 MB, esto por el peso de la carpeta conocida node modules que guarda todas las dependencias.
-Después se instaló cada una de las librerías, el los proyectos. Una vez las librerías instaladas el peso final de cada archivo fue el siguiente.
+Después se instaló cada una de las bibliotecas, el los proyectos. Una vez las bibliotecas instaladas el peso final de cada archivo fue el siguiente.
 
  \begin{itemize}
   \item \textbf{pryectoCrown:}  249 MB
    \item \textbf{proyectoMaterial:}   267 MB
  \end{itemize}
- Lo que nos da una diferencia de 18 MB de nuestra librería con respecto a Material Design.
+ Lo que nos da una diferencia de 18 MB de nuestra biblioteca con respecto a Material Design.
   \end{itemize}
 
 
